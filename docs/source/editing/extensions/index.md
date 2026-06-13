@@ -1,0 +1,5 @@
+# extension
+```{toctree}
+math
+mermaid
+```

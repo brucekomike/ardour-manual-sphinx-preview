@@ -1,0 +1,24 @@
+# tested in selfhosted gitlab runner (ubuntu 24.04 LXC in PVE)
+# apt update && apt upgrade
+# apt install build-essential python3-venv
+stages:
+  - build
+
+build_docs:
+  stage: build
+  tags:
+    - ubuntu 24.04
+    - shared
+  before_script:
+    - python3 -m venv .venv
+    - source .venv/bin/activate
+    - pip install -r docs/requirements.txt
+  script:
+    - cd docs
+    - make html
+    - mv build/html ../html-docs
+  artifacts:
+    paths:
+      - html-docs
+    expire_in: 1 week
+

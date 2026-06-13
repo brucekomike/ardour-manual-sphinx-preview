@@ -1,0 +1,10 @@
+furo
+sphinx
+myst-parser
+myst-parser[linkify]
+sphinx-inline-tabs
+sphinxext-opengraph
+sphinx-copybutton
+sphinx-autobuild
+sphinx-design
+sphinxcontrib-mermaid

@@ -1,5 +1,0 @@
-# extension
-```{toctree}
-math
-mermaid
-```

@@ -1,22 +1,23 @@
----
-hide-toc: true
----
-
-```{include} ../../README.md
-:start-after: <!-- start elevator-pitch -->
-:end-before: <!-- end elevator-pitch -->
-```
-
+# index
 ```{toctree}
-:caption: example section
-:hidden:
-:maxdepth: 2
-manual/index
-reference/index
+/about-ardour/index.md
+/introducing-ardour/index.md
+/ardour-configuration/index.md
+/ardours-interface/index.md
+/sessions-tracks/index.md
+/playback/index.md
+/recording/index.md
+/importing-and-exporting/index.md
+/editing-and-arranging/index.md
+/midi/index.md
+/clips/index.md
+/cue/index.md
+/arranging/index.md
+/mixing/index.md
+/bundled-plugins/index.md
+/video/index.md
+/using-control-surfaces/index.md
+/troubleshooting/index.md
+/scripting/index.md
+/appendix/index.md
 ```
-
-```{toctree}
-:caption: about
-:hidden:
-:maxdepth: 2
-editing/index

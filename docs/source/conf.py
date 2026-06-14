@@ -8,7 +8,7 @@
 
 ## change required >>>
 project = 'ardour manual'
-copyright = '2026, brucekomike'
+copyright = '2026, ardour.org'
 author = 'brucekomike'
 release = 'v0.2.0'
 language='en'

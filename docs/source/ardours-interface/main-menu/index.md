@@ -12,3 +12,22 @@ reassigned to an user defined key binding, or used via
 
 Some menu items placement may depend on the OS, e.g. the \"About\"
 window may not be in the [Help]{.kbd .menu} menu on Mac systems.
+
+```{toctree}
+/ardours-interface/main-menu/Session-menu
+/ardours-interface/main-menu/Transport-menu
+/ardours-interface/main-menu/Edit-menu
+/ardours-interface/main-menu/Region-menu
+/ardours-interface/main-menu/Track-menu
+/ardours-interface/main-menu/View-menu
+/ardours-interface/main-menu/Window-menu
+/ardours-interface/main-menu/Help-menu
+/ardours-interface/status-bar
+/ardours-interface/the-transport-bar
+/ardours-interface/record-punch-options.html
+/ardours-interface/using-ardour-clock-displays
+/ardours-interface/selection-and-punch-clocks
+/mini-timeline
+/ardours-interface/status-indicators
+/ardours-interface/the-toolbox
+```

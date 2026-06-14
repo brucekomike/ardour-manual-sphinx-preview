@@ -13,15 +13,4 @@
 /working-with-markers/cue-markers
 /working-with-markers/arrangement-ruler.html
 /ardours-interface/the-summary
-/ardours-interface/editor-lists
-/ardours-interface/editor-lists/tracks-and-busses-list
-/ardours-interface/editor-lists/sources-list
-/ardours-interface/editor-lists/region-list
-/ardours-interface/editor-lists/clips-list
-/ardours-interface/editor-lists/arrangement-list
-/ardours-interface/editor-lists/snapshot-list
-/ardours-interface/editor-lists/track-and-bus-group-list
-/ardours-interface/editor-lists/ranges-and-marks-list
-/ardours-interface/favorite-plugins-window
-/ardours-interface/the-strips-list
 ```

@@ -26,3 +26,9 @@ used to route audio between independent applications, and is now
 considered an advanced use case which is not recommended for most users.
 Users with a need to use JACK for audio routing should consult the
 latest documentation at the [JACK website](https://jackaudio.org/).
+
+```{toctree}
+/setting-up-your-system/setting-up-midi/midi-on-linux
+/setting-up-your-system/setting-up-midi/midi-on-os-x
+/setting-up-your-system/keyboard-shortcuts
+```

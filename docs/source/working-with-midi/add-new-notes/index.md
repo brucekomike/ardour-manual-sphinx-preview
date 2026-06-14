@@ -64,3 +64,19 @@ It can be started by choosing the [Window \> Virtual Keyboard]{.kbd
 armed for recording, the main record engaged, then the transport
 started. As for the Step Entry, a MIDI region will be auto-generated at
 the playhead position, and expanded as long as the recording lasts.
+
+```{toctree}
+/working-with-midi/handle-overlapping-notes
+/editing-and-arranging/edit-midi/note-selection
+/working-with-midi/note-cut-copy-and-paste
+/working-with-midi/note-splitting-joining
+/working-with-midi/chords
+/editing-and-arranging/editing-midi/changing-note-properties
+/editing-and-arranging/editing-midi/editing-velocity
+/working-with-midi/patch-change
+/working-with-midi/copy-midi-region
+/working-with-midi/quantize-midi
+/working-with-midi/transpose-midi
+/midi-list-editor
+/working-with-midi/transformation-midi
+```

@@ -31,3 +31,14 @@ situations, but in the future will offer more.
 
 In addition to the panners, Ardour has a balance control for subtle
 corrections to existing stereo images.
+
+```{toctree}
+/mixing/panning/mono_panner
+/mixing/panning/balance_control
+/mixing/panning/stereo_panner
+/mixing/panning/vbap_panner
+/mixing/mixer-scenes
+/mixing/saving-importing-mixer-strips
+/loudness-analyzer-and-normalizer
+/realtime-perceptual-analyzer
+```

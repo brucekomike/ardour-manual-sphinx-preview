@@ -1,25 +1,10 @@
 # Ardour's Interface
 ```{toctree}
 /ardours-interface/about
-/ardours-interface/main-menu
-/ardours-interface/main-menu/Session-menu
-/ardours-interface/main-menu/Transport-menu
-/ardours-interface/main-menu/Edit-menu
-/ardours-interface/main-menu/Region-menu
-/ardours-interface/main-menu/Track-menu
-/ardours-interface/main-menu/View-menu
-/ardours-interface/main-menu/Window-menu
-/ardours-interface/main-menu/Help-menu
-/ardours-interface/status-bar
-/ardours-interface/the-transport-bar
-/ardours-interface/record-punch-options.html
-/ardours-interface/using-ardour-clock-displays
-/ardours-interface/selection-and-punch-clocks
-/mini-timeline
-/ardours-interface/status-indicators
-/ardours-interface/the-toolbox
+/ardours-interface/main-menu/index.md
 /controls/index.md
 /ardours-interface/ruler-and-markers/index.md
+/ardours-interface/editor-lists/index.md
 /mixer-strips/index.md
 /ardours-interface/editor-tracks/index.md
 ```

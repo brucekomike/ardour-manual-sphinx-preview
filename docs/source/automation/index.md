@@ -36,3 +36,13 @@ clicking any parameter in a plugin window, a hardware controller,
 etc\... will result in this parameter\'s automation lane being
 temporarily shown, and clicking another parameter will hide this lane to
 show the new one.
+
+```{toctree}
+/automation-nomenclature
+/automation-states
+/automation-lanes
+/automation-curves
+/automation-modes
+/controlling-a-track-with-automation
+/applying-effects-to-regions-separately
+```

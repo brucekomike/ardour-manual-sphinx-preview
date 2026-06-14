@@ -24,3 +24,16 @@ It\'s possible to quickly switch between two diferent lists. To select a
 list and switch to it, click on the part of the button that contains a
 triangle icon pointing downwards. To switch to an already selected list,
 click the main part of the button.
+
+```{toctree}
+/ardours-interface/editor-lists/tracks-and-busses-list
+/ardours-interface/editor-lists/sources-list
+/ardours-interface/editor-lists/region-list
+/ardours-interface/editor-lists/clips-list
+/ardours-interface/editor-lists/arrangement-list
+/ardours-interface/editor-lists/snapshot-list
+/ardours-interface/editor-lists/track-and-bus-group-list
+/ardours-interface/editor-lists/ranges-and-marks-list
+/ardours-interface/favorite-plugins-window
+/ardours-interface/the-strips-list
+```

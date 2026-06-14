@@ -13,13 +13,5 @@
 /signal-routing/signal-flow
 /signal-routing/sidechaining
 /mixing/muting-and-soloing
-/mixing/panning
-/mixing/panning/mono_panner
-/mixing/panning/balance_control
-/mixing/panning/stereo_panner
-/mixing/panning/vbap_panner
-/mixing/mixer-scenes
-/mixing/saving-importing-mixer-strips
-/loudness-analyzer-and-normalizer
-/realtime-perceptual-analyzer
+/mixing/panning/index.md
 ```

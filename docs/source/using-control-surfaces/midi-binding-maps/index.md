@@ -7,3 +7,9 @@ other function (such as Edit, or Undo).
 Many MIDI control surfaces use predefined MIDI protocols such as the
 \"Mackie Control Protocol\". In such cases it is best to use Ardour\'s
 implementation of that protocol as it is likely more feature complete.
+
+```{toctree}
+/using-control-surfaces/generic-midi/midi-binding-maps
+/using-control-surfaces/generic-midi/midi-learn
+/using-control-surfaces/generic-midi/working-with-encoders
+```

@@ -50,3 +50,8 @@ referred to by the singular term [Patch Change]{.dfn}.
   *only* the data that they visually display on screen. The region will
   no longer be trimmable back to its original length after an Unlink
   operation, and the operation cannot be undone.
+
+```{toctree}
+/working-with-midi/create-midi-tracks
+/working-with-midi/create-midi-regions
+```

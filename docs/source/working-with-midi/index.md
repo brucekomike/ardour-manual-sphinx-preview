@@ -28,3 +28,10 @@ necessarily *destructive* by nature.
   and range of visible MIDI data. When in internal edit mode, you can
   also use scroll operations to adjust the visible range in various
   ways.
+
+```{toctree}
+/working-with-midi/pianoroll-window
+/working-with-midi/pianoroll-window-multiple-regions
+/working-with-midi/controlling-midi-range
+/working-with-midi/add-new-notes/index.md
+```

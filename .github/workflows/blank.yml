@@ -1,0 +1,43 @@
+name: epub build
+on:
+  push:
+    branches:
+      - main
+      - github-action
+      - release/*
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4.2.2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5.4.0
+        with:
+          python-version: '3.12'  # Or your Python version
+
+      - name: Install dependencies
+        run: |
+          cd docs
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Build Sphinx documentation
+        run: |
+          cd docs
+          make epub
+    
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/build/epub/ardourmanual.epub  # Path to the built documentation

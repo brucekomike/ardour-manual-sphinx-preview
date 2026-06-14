@@ -76,12 +76,12 @@ differ whatsoever.
 As of Ardour 5.12, which introduced the new template dialog, the factory
 templates are:
 
-  --------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [Empty Template]{.kbd .menu}      Creates an empty session with no tracks and no monitoring. A stereo Master Bus is created, and any track created defaults to output on this bus.
-  [Advanced Session]{.kbd .menu}    Like the Empty Template, but adds the ability to easily manage the Master bus (channels, hardware connection, and track autoconnection), and the creation of a monitoring section.
-  [Recording Session]{.kbd .menu}   Like the Empty Template, but allows the fast creation of a number of tracks, optionally ready to record.
-  [Live Band]{.kbd .menu}           Fast tracks the creation of usual tracks for a band setup (vocals, guitars, piano, \...), and optionally adds usual effects on these tracks.
-  --------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| [Empty Template]{.kbd .menu} | Creates an empty session with no tracks and no monitoring. A stereo Master Bus is created, and any track created defaults to output on this bus. |
+| [Advanced Session]{.kbd .menu} | Like the Empty Template, but adds the ability to easily manage the Master bus (channels, hardware connection, and track autoconnection), and the creation of a monitoring section. |
+| [Recording Session]{.kbd .menu} | Like the Empty Template, but allows the fast creation of a number of tracks, optionally ready to record. |
+| [Live Band]{.kbd .menu} | Fast tracks the creation of usual tracks for a band setup (vocals, guitars, piano, \...), and optionally adds usual effects on these tracks. |
 
 Selecting a template will display its description in the right-side
 panel, while hovering over a template name will show a tooltip

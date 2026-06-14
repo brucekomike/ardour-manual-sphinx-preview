@@ -14,11 +14,11 @@ MIDI input and output for Ardour are handled internally by the same
 as many MIDI devices as the system can see as there are no syncing
 difficulties as there would be with audio.
 
-  --------- ------------------------------------------------------------------------------------------------------------------
-  OS X      [CoreMIDI]{.dfn} is the standard MIDI framework on OSX systems.
-  Linux     [[ALSA]{.abbr title="Advanced Linux Sound API"} MIDI]{.dfn} is the standard MIDI framework on Linux systems.
-  Windows   [[MME]{.abbr title="Microsoft Multimedia Environment"}]{.dfn} is the standard MIDI framework on Windows systems.
-  --------- ------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| OS X | [CoreMIDI]{.dfn} is the standard MIDI framework on OSX systems. |
+| Linux | [[ALSA]{.abbr title="Advanced Linux Sound API"} MIDI]{.dfn} is the standard MIDI framework on Linux systems. |
+| Windows | [[MME]{.abbr title="Microsoft Multimedia Environment"}]{.dfn} is the standard MIDI framework on Windows systems. |
 
 [[JACK]{.abbr title="JACK Audio Connection Kit"}]{.dfn} is an alternate
 audio system which Ardour can utilize for both audio and MIDI. JACK is

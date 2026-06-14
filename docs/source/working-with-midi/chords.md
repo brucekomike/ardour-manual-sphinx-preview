@@ -12,13 +12,13 @@ style="width:75%"}
 
 The controls in Chord Editing are separated into the following groups:
 
-  Group                     Can create new chords   Can edit existing chords
-  ------------------------- ----------------------- --------------------------
-  3-Note Chords (Triads)    Yes                     Yes
-  4-Note Chords (Tetrads)   Yes                     Yes
-  Extended Chords           Yes                     Yes
-  Inversions                No                      Yes
-  Drop Notes                No                      Yes
+| Group                   | Can create new chords | Can edit existing chords |
+|-------------------------|-----------------------|--------------------------|
+| 3-Note Chords (Triads)  | Yes                   | Yes                      |
+| 4-Note Chords (Tetrads) | Yes                   | Yes                      |
+| Extended Chords         | Yes                   | Yes                      |
+| Inversions              | No                    | Yes                      |
+| Drop Notes              | No                    | Yes                      |
 
 ## Adding chords
 

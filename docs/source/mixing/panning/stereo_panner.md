@@ -48,24 +48,24 @@ Although the implementation of the panner uses the \"position\"
 parameter, when the user interface displays it numerically, it shows a
 pair of numbers that will be familiar to most audio engineers.
 
-  Position   L/R           English
-  ---------- ------------- --------------------------------------------------------
-  0          L=50% R=50%   signal image is midway between left and right speakers
-  -1         L=100% R=0%   signal image is entirely at the left speaker
-  1          L=0% R=100%   signal image is entirely at the right speaker
+| Position | L/R | English |
+|----|----|----|
+| 0 | L=50% R=50% | signal image is midway between left and right speakers |
+| -1 | L=100% R=0% | signal image is entirely at the left speaker |
+| 1 | L=0% R=100% | signal image is entirely at the right speaker |
 
 One way to remember this sort of convention is that the middle of the
 USA is not Kansas, but \"Los Angeles: 50% New York: 50%\".
 
 ### Examples In Use
 
-  Appearance                                  Settings
-  ------------------------------------------- ------------------------------------
-  ![](/images/stereo-panner.png)              Width=100%, L=50 R=50
-  ![](/images/stereo-panner-zero.png)         Width=0%, L=50 R=50
-  ![](/images/stereo-panner-inverted.png)     Width=-100%, Position = 0 (center)
-  ![](/images/stereo-panner-right.png)        Width=36%, L=44 R=56
-  ![](/images/stereo-panner-hard-right.png)   Width=0%, L=0 R=100
+| Appearance | Settings |
+|----|----|
+| ![](/images/stereo-panner.png) | Width=100%, L=50 R=50 |
+| ![](/images/stereo-panner-zero.png) | Width=0%, L=50 R=50 |
+| ![](/images/stereo-panner-inverted.png) | Width=-100%, Position = 0 (center) |
+| ![](/images/stereo-panner-right.png) | Width=36%, L=44 R=56 |
+| ![](/images/stereo-panner-hard-right.png) | Width=0%, L=0 R=100 |
 
 #### Using the mouse
 
@@ -85,43 +85,43 @@ dragging within the lower half of the panner, then releasing. The width
 will be limited by the current position setting. *Note: it is not
 necessary to grab the L/R indicators in order to drag.*
 
-  ----------------------------------------------------- -------------------------------------------------------------------------------
-  Reset to defaults                                     Click [right]{.kbd .mod3 .mouse}
-  Change to hard left                                   Double click [right]{.kbd .mod2 .mouse} in the upper left half of the panner
-  Change to a hard right                                Double click [right]{.kbd .mod2 .mouse} in the upper right half of the panner
-  Move position as far left as possible, given width    Double click [right]{.kbd .mouse} in the upper left half of the panner
-  Move position as far right as possible, given width   Double click [right]{.kbd .mouse} in the upper right half of the panner
-  Set the position to center                            Click [right]{.kbd .mouse} in the upper middle of the panner
-  Reset to maximum possible width                       Double click [right]{.kbd .mouse} on the lower left side
-  Invert (flip channel assignments)                     Double click [right]{.kbd .mouse} on the lower right side
-  Set width to 0°                                       Double click [right]{.kbd .mouse} in the lower middle
-  ----------------------------------------------------- -------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Reset to defaults | Click [right]{.kbd .mod3 .mouse} |
+| Change to hard left | Double click [right]{.kbd .mod2 .mouse} in the upper left half of the panner |
+| Change to a hard right | Double click [right]{.kbd .mod2 .mouse} in the upper right half of the panner |
+| Move position as far left as possible, given width | Double click [right]{.kbd .mouse} in the upper left half of the panner |
+| Move position as far right as possible, given width | Double click [right]{.kbd .mouse} in the upper right half of the panner |
+| Set the position to center | Click [right]{.kbd .mouse} in the upper middle of the panner |
+| Reset to maximum possible width | Double click [right]{.kbd .mouse} on the lower left side |
+| Invert (flip channel assignments) | Double click [right]{.kbd .mouse} on the lower right side |
+| Set width to 0° | Double click [right]{.kbd .mouse} in the lower middle |
 
 #### Keyboard bindings
 
 When the pointer is within a stereo panner user interface, the following
 keybindings are available to operate on that panner:
 
-  ----------------------------- ------------------------------------
-  [↑]{.kbd} / [↑]{.kbd .mod1}   increase width by 1° / 5°
-  [↓]{.kbd} / [↓]{.kbd .mod1}   decrease width by 1° / 5°
-  [←]{.kbd} / [←]{.kbd .mod1}   move position 1° / 5° to the left
-  [→]{.kbd} / [→]{.kbd .mod1}   move position 1° / 5° to the right
-  [0]{.kbd}                     reset position to center
-  [↑]{.kbd .mod2}               reset width to full (100%)
-  ----------------------------- ------------------------------------
+|                             |                                    |
+|-----------------------------|------------------------------------|
+| [↑]{.kbd} / [↑]{.kbd .mod1} | increase width by 1° / 5°          |
+| [↓]{.kbd} / [↓]{.kbd .mod1} | decrease width by 1° / 5°          |
+| [←]{.kbd} / [←]{.kbd .mod1} | move position 1° / 5° to the left  |
+| [→]{.kbd} / [→]{.kbd .mod1} | move position 1° / 5° to the right |
+| [0]{.kbd}                   | reset position to center           |
+| [↑]{.kbd .mod2}             | reset width to full (100%)         |
 
 #### Using the scroll wheel/touch scroll
 
 When the pointer is within a stereo panner user interface, the scroll
 wheel may be used as follows:
 
-  ------------------------------------------- -----------------------------------
-  [⇐]{.kbd .mouse} / [⇐]{.kbd .mod1 .mouse}   increase width by 1° / 5°
-  [⇒]{.kbd .mouse} / [⇒]{.kbd .mod1 .mouse}   decrease width by 1° / 5°
-  [⇑]{.kbd .mouse} / [⇑]{.kbd .mod1 .mouse}   move position 1° / 5° to the left
-  [⇓]{.kbd .mouse} / [⇓]{.kbd .mod1 .mouse}   move position 1° / 5°to the right
-  ------------------------------------------- -----------------------------------
+|  |  |
+|----|----|
+| [⇐]{.kbd .mouse} / [⇐]{.kbd .mod1 .mouse} | increase width by 1° / 5° |
+| [⇒]{.kbd .mouse} / [⇒]{.kbd .mod1 .mouse} | decrease width by 1° / 5° |
+| [⇑]{.kbd .mouse} / [⇑]{.kbd .mod1 .mouse} | move position 1° / 5° to the left |
+| [⇓]{.kbd .mouse} / [⇓]{.kbd .mod1 .mouse} | move position 1° / 5°to the right |
 
 ## []{#caveat}Stereo panning caveats
 

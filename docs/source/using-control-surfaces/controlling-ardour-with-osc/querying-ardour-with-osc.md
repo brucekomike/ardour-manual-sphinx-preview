@@ -9,15 +9,15 @@ information. It may well make sense to use regular feedback for things
 that need to be updated often such as position or metering. Here are the
 commands used to query Ardour: (added in Ardour 5.5)
 
-  ----------------------------------------------------- -------------------------------------------------------------------------------------------------
-  [/strip/list]{.kbd .osc}                              Ask for a list of strips
-  [/strip/sends *ssid*]{.kbd .osc}                      Asks for a list of sends on the strip *ssid*
-  [/strip/receives *ssid*]{.kbd .osc}                   Asks for a list of tracks that have sends to the strip *ssid* points to
-  [/strip/plugin/list *ssid*]{.kbd .osc}                Asks for a list of plug-ins for strip *ssid.*
-  [/strip/plugin/descriptor *ssid* *piid*]{.kbd .osc}   Asks for a list of descriptors for plug-in *piid* on strip *ssid*
-  [/set_surface]{.kbd .osc}                             Ask for the current surface setting. Reply is in the same form as setting the surface would be.
-  [/surface/list]{.kbd .osc}                            Print a list of known surfaces and Link Sets to the log window.
-  ----------------------------------------------------- -------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| [/strip/list]{.kbd .osc} | Ask for a list of strips |
+| [/strip/sends *ssid*]{.kbd .osc} | Asks for a list of sends on the strip *ssid* |
+| [/strip/receives *ssid*]{.kbd .osc} | Asks for a list of tracks that have sends to the strip *ssid* points to |
+| [/strip/plugin/list *ssid*]{.kbd .osc} | Asks for a list of plug-ins for strip *ssid.* |
+| [/strip/plugin/descriptor *ssid* *piid*]{.kbd .osc} | Asks for a list of descriptors for plug-in *piid* on strip *ssid* |
+| [/set_surface]{.kbd .osc} | Ask for the current surface setting. Reply is in the same form as setting the surface would be. |
+| [/surface/list]{.kbd .osc} | Print a list of known surfaces and Link Sets to the log window. |
 
 ### A list of strips
 

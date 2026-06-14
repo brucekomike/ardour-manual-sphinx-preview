@@ -2,6 +2,7 @@
 The [Region]{.kbd .menu} Menu is where the user can tweak its regions,
 the parts of audio or MIDI that sit on the timeline.
 
+```{eval-rst}
 +----------------------------------+---------------------------------------------------------+
 | Insert Region from Source List   | If a region is selected in the Editor List, add it at   |
 |                                  | the Edit point                                          |
@@ -291,3 +292,4 @@ the parts of audio or MIDI that sit on the timeline.
 |                                  | the process, and the region stays in the Editor for     |
 |                                  | later use)                                              |
 +----------------------------------+---------------------------------------------------------+
+```

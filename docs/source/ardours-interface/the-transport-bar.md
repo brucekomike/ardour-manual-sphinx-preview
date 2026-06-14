@@ -11,17 +11,17 @@ of playback and recording.
 The upper row contains transport actions, that are all bound to keyboard
 shortcuts, which allows for speedier use and more focused work:
 
-  ---------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Midi Panic                   Immediately stops all midi output.
-  Enable/disable Audio Click   Toggles (on/off) a click track (metronome) along the [tempo](@@tempo-and-meter). Right clicking brings up the [Click]{.kbd .menu} submenu from the Preferences. Scrolling with the mouse wheel adjusts the gain of the click.
-  Go to Start of the Session   Jumps back at the beginning of the session, as defined by the [start marker](@@working-with-markers).
-  Go to End of the Session     Jumps forward to the end of the session, as defined by the [end marker](@@working-with-markers).
-  Play Loop Range              Repeats the defined [loop](@@controlling-playback) as defined by the [Loop range](@@the-loop-range), until the \"Stop playback\" button is pressed. Clicking the \"Play loop Range\" button while already active switches to normal Play mode, which exits the loop without stopping and restarting playback.
-  Play Range/Selection         If a range has been defined using the Range Mode button, plays the range, of if an audio or MIDI region is selected, plays this region. In both cases, the playback stops at the end of the range or selected region.
-  Play from playhead           Starts the playback and optionally record (more below).
-  Stop                         Whatever the playing mode (loop, range, ...) stops all playback. Depending on other settings, some effects (like chorus or reverb) might still be audible for a while.
-  Toggle Record                Global switch button to activate/deactivate recording. While active, the button blinks red. The button doesn\'t start recording by itself: if one or more tracks are marked as record-enabled, pressing the \"Play from Playhead\" starts recording on those tracks.
-  ---------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Midi Panic | Immediately stops all midi output. |
+| Enable/disable Audio Click | Toggles (on/off) a click track (metronome) along the [tempo](@@tempo-and-meter). Right clicking brings up the [Click]{.kbd .menu} submenu from the Preferences. Scrolling with the mouse wheel adjusts the gain of the click. |
+| Go to Start of the Session | Jumps back at the beginning of the session, as defined by the [start marker](@@working-with-markers). |
+| Go to End of the Session | Jumps forward to the end of the session, as defined by the [end marker](@@working-with-markers). |
+| Play Loop Range | Repeats the defined [loop](@@controlling-playback) as defined by the [Loop range](@@the-loop-range), until the \"Stop playback\" button is pressed. Clicking the \"Play loop Range\" button while already active switches to normal Play mode, which exits the loop without stopping and restarting playback. |
+| Play Range/Selection | If a range has been defined using the Range Mode button, plays the range, of if an audio or MIDI region is selected, plays this region. In both cases, the playback stops at the end of the range or selected region. |
+| Play from playhead | Starts the playback and optionally record (more below). |
+| Stop | Whatever the playing mode (loop, range, ...) stops all playback. Depending on other settings, some effects (like chorus or reverb) might still be audible for a while. |
+| Toggle Record | Global switch button to activate/deactivate recording. While active, the button blinks red. The button doesn\'t start recording by itself: if one or more tracks are marked as record-enabled, pressing the \"Play from Playhead\" starts recording on those tracks. |
 
 If Ardour is synchronized with other devices then some or all of these
 control methods may be unavailable---depending on the synchronization
@@ -72,14 +72,14 @@ bound to keys. Many of them have default bindings, some do not, so the
 list below shows both the default bindings and internal command names
 for some of them.
 
-  --------------- ----------------------------------------
-  [Space]{.kbd}   Switch between playback and stop.
-  [Home]{.kbd}    Move playhead to session start marker
-  [End]{.kbd}     Move playhead to session end marker
-  [→]{.kbd}       Playhead to next region boundary
-  [←]{.kbd}       Playhead to previous region boundary
-  [0]{.kbd}       Move playhead to start of the timeline
-  --------------- ----------------------------------------
+|               |                                        |
+|---------------|----------------------------------------|
+| [Space]{.kbd} | Switch between playback and stop.      |
+| [Home]{.kbd}  | Move playhead to session start marker  |
+| [End]{.kbd}   | Move playhead to session end marker    |
+| [→]{.kbd}     | Playhead to next region boundary       |
+| [←]{.kbd}     | Playhead to previous region boundary   |
+| [0]{.kbd}     | Move playhead to start of the timeline |
 
 The [Transport]{.kbd .menu} and [Transport \> Playhead]{.kbd .menu}
 menus contain a lot more transport actions and their key bindings.

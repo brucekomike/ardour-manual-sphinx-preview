@@ -44,6 +44,7 @@ further reading we recommend:
 There are different metering standards, most of which are available in
 Ardour. In short:
 
+```{eval-rst}
 +-----------------------------------+----------------------------------------------------------+
 | Digital peak-meter                | A [Digital Peak Meter]{.dfn} displays the absolute       |
 |                                   | maximum signal of the raw audio PCM signal (for a given  |
@@ -113,6 +114,7 @@ Ardour. In short:
 |                                   | spec, but for visual consistency it is displayed as a    |
 |                                   | bar-graph rather than needle-style (more below).         |
 +-----------------------------------+----------------------------------------------------------+
+```
 
 ## Ardour Specifics
 

@@ -3,17 +3,17 @@ The `/jog` command will have a different affect depending on which jog
 mode is selected. The jog system has two commands and gives feedback of
 the mode chosen.
 
-  ------------------------------- ---------------------------------------------------------------
-  [/jog *delta*]{.kbd .osc}       Where *delta* is a float indicating the amount and direction.
-  [/jog/mode *mode*]{.kbd .osc}   Where *mode* is an int from 0 to 7 indicating the mode
-  ------------------------------- ---------------------------------------------------------------
+|  |  |
+|----|----|
+| [/jog *delta*]{.kbd .osc} | Where *delta* is a float indicating the amount and direction. |
+| [/jog/mode *mode*]{.kbd .osc} | Where *mode* is an int from 0 to 7 indicating the mode |
 
 Feedback is as below
 
-  ------------------------------------ -----------------------------------------------------------------------
-  [/jog/mode/name *name*]{.kbd .osc}   Where *name* is a string indicating the name of the current jog mode.
-  [/jog/mode *mode*]{.kbd .osc}        Where *mode* is an int from 0 to 7 indicating the current jog mode.
-  ------------------------------------ -----------------------------------------------------------------------
+|  |  |
+|----|----|
+| [/jog/mode/name *name*]{.kbd .osc} | Where *name* is a string indicating the name of the current jog mode. |
+| [/jog/mode *mode*]{.kbd .osc} | Where *mode* is an int from 0 to 7 indicating the current jog mode. |
 
 ### Jog Modes
 

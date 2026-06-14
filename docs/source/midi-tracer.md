@@ -22,21 +22,21 @@ The MIDI Tracer can list all types of MIDI and \"audio\" events, and
 
 The window consists of:
 
-  ---------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [Port]{.dfn}           A list of all the MIDI ports Ardour presents to the system. They are both internal and external and are the same ports Ardour presents to JACK, if enabled
-  The events list        Where all the events for this port are listed, see below
-  [Line history]{.dfn}   How many lines should be kept in the events list; once this limit is reached, older events will be removed from the list
-  [Delta times]{.dfn}    If checked, shows the times as the duration since the last event, instead of [absolute times](@@on-clock-and-time)
-  [Decimal]{.dfn}        If checked, shows the MIDI data as decimal values instead of hexadecimal
-  [Enabled]{.dfn}        If checked, events are displayed in the events list as they occur, otherwise stops the logging
-  [Auto-Scroll]{.dfn}    If checked, the events list scrolls as new events are logged, keeping the newest events on screen
-  ---------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| [Port]{.dfn} | A list of all the MIDI ports Ardour presents to the system. They are both internal and external and are the same ports Ardour presents to JACK, if enabled |
+| The events list | Where all the events for this port are listed, see below |
+| [Line history]{.dfn} | How many lines should be kept in the events list; once this limit is reached, older events will be removed from the list |
+| [Delta times]{.dfn} | If checked, shows the times as the duration since the last event, instead of [absolute times](@@on-clock-and-time) |
+| [Decimal]{.dfn} | If checked, shows the MIDI data as decimal values instead of hexadecimal |
+| [Enabled]{.dfn} | If checked, events are displayed in the events list as they occur, otherwise stops the logging |
+| [Auto-Scroll]{.dfn} | If checked, the events list scrolls as new events are logged, keeping the newest events on screen |
 
 The events list displays the events as columns:
 
-  ------------------------------------ ------------------------------------------------------------------------------------------------------
-  Time of the event                    Either absolute or relative, based on the [Delta times]{.kbd .option} checkbox
-  MIDI status (event type)             What MIDI events happened (e.g. Note On, Note Off, Pitch Bend, etc.)
-  MIDI channel                         The MIDI channel the event happened in
-  MIDI data bytes (event parameters)   Parameters of the event, e.g. for a Note On: what the [note](@@midi-notes-ref) was, and its velocity
-  ------------------------------------ ------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Time of the event | Either absolute or relative, based on the [Delta times]{.kbd .option} checkbox |
+| MIDI status (event type) | What MIDI events happened (e.g. Note On, Note Off, Pitch Bend, etc.) |
+| MIDI channel | The MIDI channel the event happened in |
+| MIDI data bytes (event parameters) | Parameters of the event, e.g. for a Note On: what the [note](@@midi-notes-ref) was, and its velocity |

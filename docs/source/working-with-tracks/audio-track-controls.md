@@ -33,11 +33,11 @@ of the track (1 level per output).
 
 The control buttons are:
 
-  --------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [●]{.kbd style="color:red;"} (Record)   The button with the pink circle arms the track for recording. When armed, the entire button will turn pink, and change to bright red as soon as the transport is rolling and the track is recording. [Right]{.kbd .mouse} clicking will allow to en/disable Rec-safe, protecting the track against accidental recording.
-  [M]{.kbd} (Mute)                        Mutes the track. [Right]{.kbd .mouse} clicking displays a menu which dictates what particular parts of the track should be muted.
-  [S]{.kbd} (Solo)                        Soloes the track. The behaviour of the solo system is described in detail in the section [Muting and Soloing](@@muting-and-soloing). [Right]{.kbd .mouse} clicking will allow to en/disable Solo isolate and Solo safe.
-  [P]{.kbd} (Playlist)                    Opens a playlist menu when clicked. The menu offers various operations related to the track\'s [playlist](@@playlists).
-  [A]{.kbd} (Automation)                  Opens the automation menu for the track. For details see [Automation](@@automation).
-  [G]{.kbd} (Group)                       Allows to assign the track to an existing or a new group. For details see [Track and bus groups](@@track-and-bus-groups).
-  --------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| [●]{.kbd style="color:red;"} (Record) | The button with the pink circle arms the track for recording. When armed, the entire button will turn pink, and change to bright red as soon as the transport is rolling and the track is recording. [Right]{.kbd .mouse} clicking will allow to en/disable Rec-safe, protecting the track against accidental recording. |
+| [M]{.kbd} (Mute) | Mutes the track. [Right]{.kbd .mouse} clicking displays a menu which dictates what particular parts of the track should be muted. |
+| [S]{.kbd} (Solo) | Soloes the track. The behaviour of the solo system is described in detail in the section [Muting and Soloing](@@muting-and-soloing). [Right]{.kbd .mouse} clicking will allow to en/disable Solo isolate and Solo safe. |
+| [P]{.kbd} (Playlist) | Opens a playlist menu when clicked. The menu offers various operations related to the track\'s [playlist](@@playlists). |
+| [A]{.kbd} (Automation) | Opens the automation menu for the track. For details see [Automation](@@automation). |
+| [G]{.kbd} (Group) | Allows to assign the track to an existing or a new group. For details see [Track and bus groups](@@track-and-bus-groups). |

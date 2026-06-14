@@ -11,14 +11,14 @@ Here are the currently available follow actions. Please note that to
 help distinguishing between them, Ardour will display an icon next to
 the name of a clip in a slot:
 
-  ----------------------- -------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------
-  [None]{.kbd .menu}      No icon                                                                                            Play the contents of the slot once and stop
-  [Stop]{.kbd .menu}      ![](/images/follow-action-icons-stop.png)                                                          Stop after playing back the amount of times set with Follow Count or via Follow Length (see below)
-  [Again]{.kbd .menu}     ![](/images/follow-action-icons-again.png)                                                         Repeat the contents of the trigger slot over and over again
-  [Reverse]{.kbd .menu}   ![](/images/follow-action-icons-reverse.png)                                                       Play back and go to the previous trigger slot
-  [Forward]{.kbd .menu}   ![](/images/follow-action-icons-forward.png)                                                       Play back and go to the next trigger slot
-  [Jump]{.kbd .menu}      ![](/images/follow-action-icons-jump-cue-e.png)  ![](/images/follow-action-icons-jump-multi.png)   Play back and jump to a particular scene. Selecting multi-jump and multiple trigger slots will result in randomly playing one of the selected slots.
-  ----------------------- -------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |  |
+|----|----|----|
+| [None]{.kbd .menu} | No icon | Play the contents of the slot once and stop |
+| [Stop]{.kbd .menu} | ![](/images/follow-action-icons-stop.png) | Stop after playing back the amount of times set with Follow Count or via Follow Length (see below) |
+| [Again]{.kbd .menu} | ![](/images/follow-action-icons-again.png) | Repeat the contents of the trigger slot over and over again |
+| [Reverse]{.kbd .menu} | ![](/images/follow-action-icons-reverse.png) | Play back and go to the previous trigger slot |
+| [Forward]{.kbd .menu} | ![](/images/follow-action-icons-forward.png) | Play back and go to the next trigger slot |
+| [Jump]{.kbd .menu} | ![](/images/follow-action-icons-jump-cue-e.png)  ![](/images/follow-action-icons-jump-multi.png) | Play back and jump to a particular scene. Selecting multi-jump and multiple trigger slots will result in randomly playing one of the selected slots. |
 
 Note that the follow action can be set right in the grid. It is achieved
 by clicking the icon that corresponds to the currently selected follow

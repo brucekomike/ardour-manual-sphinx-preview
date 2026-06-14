@@ -2,6 +2,7 @@
 The [Edit]{.dfn} menu groups together the actions related to the
 edition, and so will be mostly used while in Editor mode.
 
+```{eval-rst}
 +----------------------------------+--------------------------------------------------------+
 | Undo (*action*)                  | Reverts the last editing operation, namely *action*    |
 +----------------------------------+--------------------------------------------------------+
@@ -256,3 +257,4 @@ edition, and so will be mostly used while in Editor mode.
 | Preferences                      | Displays the [Preferences](@@preferences) panels,      |
 |                                  | allowing to change Ardour\'s behaviour                 |
 +----------------------------------+--------------------------------------------------------+
+```

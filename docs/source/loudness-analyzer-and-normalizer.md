@@ -95,22 +95,22 @@ A selection of presets is offered to simplify the normalization. These
 presets apply the relevant parameters and their target values. Below is
 a table of these presets:
 
-  Parameter name:   dbFS    dBTP    LUFS    short   mom.    FS   TP     int   sht   mom   maxIntg   notes
-  ----------------- ------- ------- ------- ------- ------- ---- ------ ----- ----- ----- --------- --------
-  EBU R128          false   true    true    false   false   0    -1.0   -23   0     0     -22.5     -23.5
-  EBU R128 S1       false   true    true    true    false   0    -1.0   -23   -18   0     -22.5     -23.5
-  ATSC A/85         false   true    true    true    false   0    -2.0   -24   0     0     -22.0     -26.0
-  AES Streaming     false   true    true    false   false   0    -1.0   -18   0     0     -16.0     -20.0
-  ASWG-R001 HOME    false   true    true    true    false   0    -1.0   -24   0     0     -22.0     -26.0
-  Digital Peak      true    false   false   false   false   0    0.0    0     0     0     0.0       -200.0
-  CD/DVD            true    true    true    false   false   0    -0.1   -9    0     0     0.0       -200.0
-  Amazon Music      false   true    true    false   false   0    -2.0   -14   0     0     -9.0      -19.0
-  Apple Music       false   true    true    false   false   0    -1.0   -16   0     0     -15.0     -17.0
-  Deezer            false   true    true    false   false   0    -1.0   -15   0     0     -14.0     -16.0
-  Soundcloud        false   true    true    false   false   0    -1.0   -10   0     0     -8.0      -13.0
-  Spotify           false   true    true    false   false   0    -1.0   -14   0     0     -8.0      -20.0
-  Spotify Loud      false   true    true    false   false   0    -2.0   -11   0     0     -5.0      -17.0
-  Youtube           false   true    true    false   false   0    -1.0   -14   0     0     -13.0     -15.0
+| Parameter name: | dbFS  | dBTP  | LUFS  | short | mom.  | FS  | TP   | int | sht | mom | maxIntg | notes  |
+|-----------------|-------|-------|-------|-------|-------|-----|------|-----|-----|-----|---------|--------|
+| EBU R128        | false | true  | true  | false | false | 0   | -1.0 | -23 | 0   | 0   | -22.5   | -23.5  |
+| EBU R128 S1     | false | true  | true  | true  | false | 0   | -1.0 | -23 | -18 | 0   | -22.5   | -23.5  |
+| ATSC A/85       | false | true  | true  | true  | false | 0   | -2.0 | -24 | 0   | 0   | -22.0   | -26.0  |
+| AES Streaming   | false | true  | true  | false | false | 0   | -1.0 | -18 | 0   | 0   | -16.0   | -20.0  |
+| ASWG-R001 HOME  | false | true  | true  | true  | false | 0   | -1.0 | -24 | 0   | 0   | -22.0   | -26.0  |
+| Digital Peak    | true  | false | false | false | false | 0   | 0.0  | 0   | 0   | 0   | 0.0     | -200.0 |
+| CD/DVD          | true  | true  | true  | false | false | 0   | -0.1 | -9  | 0   | 0   | 0.0     | -200.0 |
+| Amazon Music    | false | true  | true  | false | false | 0   | -2.0 | -14 | 0   | 0   | -9.0    | -19.0  |
+| Apple Music     | false | true  | true  | false | false | 0   | -1.0 | -16 | 0   | 0   | -15.0   | -17.0  |
+| Deezer          | false | true  | true  | false | false | 0   | -1.0 | -15 | 0   | 0   | -14.0   | -16.0  |
+| Soundcloud      | false | true  | true  | false | false | 0   | -1.0 | -10 | 0   | 0   | -8.0    | -13.0  |
+| Spotify         | false | true  | true  | false | false | 0   | -1.0 | -14 | 0   | 0   | -8.0    | -20.0  |
+| Spotify Loud    | false | true  | true  | false | false | 0   | -2.0 | -11 | 0   | 0   | -5.0    | -17.0  |
+| Youtube         | false | true  | true  | false | false | 0   | -1.0 | -14 | 0   | 0   | -13.0   | -15.0  |
 
 New presets can be created at will and saved/removed using the
 [Save]{.kbd} and [Remove]{.kbd} buttons next to the preset choice. The

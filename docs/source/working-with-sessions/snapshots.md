@@ -15,10 +15,10 @@ the snapshot. The default name is based on the current date and time.
 
 The difference between the two snapshot menus is:
 
-  ---------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [Snapshot (& keep working on current version)\...]{.kbd .menu}   Saves a snapshot of the session, but keeps the current session active, i.e. any subsequent [Session \> Save]{.kbd .menu} will overwrite the original session, and the snapshot will remain unchanged.
-  [Snapshot (& switch to new version)\...]{.kbd .menu}             Saves a snapshot of the session, and uses this snapshot as the current active session, i.e. any subsequent [Session \> Save]{.kbd .menu} will overwrite the snapshot, and the original session will remain unchanged.
-  ---------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| [Snapshot (& keep working on current version)\...]{.kbd .menu} | Saves a snapshot of the session, but keeps the current session active, i.e. any subsequent [Session \> Save]{.kbd .menu} will overwrite the original session, and the snapshot will remain unchanged. |
+| [Snapshot (& switch to new version)\...]{.kbd .menu} | Saves a snapshot of the session, and uses this snapshot as the current active session, i.e. any subsequent [Session \> Save]{.kbd .menu} will overwrite the snapshot, and the original session will remain unchanged. |
 
 Any number of snapshots can be created.
 

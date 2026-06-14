@@ -41,13 +41,13 @@ As opposed to zipping the entire session-folder manually,
 
 The window shows the following options:
 
-  -------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------
-  [Archive Name]{.dfn}                   The name of the archive file, defaulting to the name of the session followed by the date and time
-  a dropdown extension selector          allowing to choose between different kind or compressed archive file types
-  [Target directory/folder]{.dfn}        defining where in the filesystem the archive file will be generated
-  [Audio Compression]{.dfn}              a dropdown menu allowing to compress the audio files themselves by using an audio-tailored compression format, more on that below
-  [Exclude unused audio sources]{.dfn}   a checkbox to drop every audio that is in the session, but not actually used in the editor
-  -------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| [Archive Name]{.dfn} | The name of the archive file, defaulting to the name of the session followed by the date and time |
+| a dropdown extension selector | allowing to choose between different kind or compressed archive file types |
+| [Target directory/folder]{.dfn} | defining where in the filesystem the archive file will be generated |
+| [Audio Compression]{.dfn} | a dropdown menu allowing to compress the audio files themselves by using an audio-tailored compression format, more on that below |
+| [Exclude unused audio sources]{.dfn} | a checkbox to drop every audio that is in the session, but not actually used in the editor |
 
 The [Audio Compression]{.kbd .menu} selection accepts any of:
 

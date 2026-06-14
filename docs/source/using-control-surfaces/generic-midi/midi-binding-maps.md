@@ -201,28 +201,28 @@ here:
 
 Enable Feedback applies to these \"Control Addresses\" only.
 
-  ------------------------- -------------------------------------------------------------------------
-  /route/gain               the gain control (\"fader\") for the track/bus
-  /route/trim               the trim control for the track/bus (new in 4.1)
-  /route/solo               a toggleable control for solo (and listen) of the track/bus
-  /route/mute               a toggleable control to mute/unmute the track/bus
-  /route/recenable          a toggleable control to record-enable the track
-  /route/panwidth           interpreted by the track/bus panner, should control image \"width\"
-  /route/pandirection       interpreted by the track/bus panner, should control image \"direction\"
-  /route/plugin/parameter   the Mth parameter of the Nth plugin of a track/bus
-  /route/send/gain          the gain control (\"fader\") of the Nth send of a track/bus
-  ------------------------- -------------------------------------------------------------------------
+|  |  |
+|----|----|
+| /route/gain | the gain control (\"fader\") for the track/bus |
+| /route/trim | the trim control for the track/bus (new in 4.1) |
+| /route/solo | a toggleable control for solo (and listen) of the track/bus |
+| /route/mute | a toggleable control to mute/unmute the track/bus |
+| /route/recenable | a toggleable control to record-enable the track |
+| /route/panwidth | interpreted by the track/bus panner, should control image \"width\" |
+| /route/pandirection | interpreted by the track/bus panner, should control image \"direction\" |
+| /route/plugin/parameter | the Mth parameter of the Nth plugin of a track/bus |
+| /route/send/gain | the gain control (\"fader\") of the Nth send of a track/bus |
 
 Each of the specifications needs an address, which takes various forms
 too. For track-level controls (solo/gain/mute/recenable), the address is
 one the following:
 
-  ------------------------- ---------------------------------------------------------------------------------------------------------------
-  a number, e.g. \"1\"      identifies a track or bus by its remote control ID
-  B, followed by a number   identifies a track or bus by its remote control ID within the current bank (see below for more on banks)
-  S, followed by a number   identifies a selected track in order they have been selected, S1 should be the same track as the Editor Mixer
-  one or more words         identifies a track or bus by its name
-  ------------------------- ---------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| a number, e.g. \"1\" | identifies a track or bus by its remote control ID |
+| B, followed by a number | identifies a track or bus by its remote control ID within the current bank (see below for more on banks) |
+| S, followed by a number | identifies a selected track in order they have been selected, S1 should be the same track as the Editor Mixer |
+| one or more words | identifies a track or bus by its name |
 
 For send/insert/plugin controls, the address consists of a track/bus
 address (as just described) followed by a number identifying the
@@ -256,19 +256,19 @@ actions, described below.
 
 The following function names are available:
 
-  --------------------- ---------------------------------------------------------------
-  `transport-stop`      stop the transport
-  `transport-roll`      start the transport \"rolling\"
-  `transport-zero`      move the playhead to the zero position
-  `transport-start`     move the playhead to the start marker
-  `transport-end`       move the playhead to the end marker
-  `loop-toggle`         turn on loop playback
-  `toggle-rec-enable`   toggle the global record button
-  `rec-enable`          enable the global record button
-  `rec-disable`         disable the global record button
-  `next-bank`           move track/bus mapping to the next bank (see Banks below)
-  `prev-bank`           move track/bus mapping to the previous bank (see Banks below)
-  --------------------- ---------------------------------------------------------------
+|  |  |
+|----|----|
+| `transport-stop` | stop the transport |
+| `transport-roll` | start the transport \"rolling\" |
+| `transport-zero` | move the playhead to the zero position |
+| `transport-start` | move the playhead to the start marker |
+| `transport-end` | move the playhead to the end marker |
+| `loop-toggle` | turn on loop playback |
+| `toggle-rec-enable` | toggle the global record button |
+| `rec-enable` | enable the global record button |
+| `rec-disable` | disable the global record button |
+| `next-bank` | move track/bus mapping to the next bank (see Banks below) |
+| `prev-bank` | move track/bus mapping to the previous bank (see Banks below) |
 
 #### Binding to Ardour \"actions\"
 

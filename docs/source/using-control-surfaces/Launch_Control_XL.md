@@ -42,10 +42,10 @@ the 8th fader control the master bus.
 
 Features supported out of the box are:
 
-  ----------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------
-  Faders                        Control faders of 8 tracks at the same time
-  Track selection               In the Mix mode, these buttons shifts the track focus by one track allowing to control e.g. track 2..9 or 3..10 rather than the default 1..8.
-  [Mute]{.kbd .button} button   Switches the Track Control row of buttons to toggle the *mute* status of tracks
-  [Solo]{.kbd .button} button   Switches the Track Control row of buttons to toggle the *solo* status of tracks
-  [Arm]{.kbd .button} button    Switches the Track Control row of buttons to toggle the *record-arm* status of tracks
-  ----------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Faders | Control faders of 8 tracks at the same time |
+| Track selection | In the Mix mode, these buttons shifts the track focus by one track allowing to control e.g. track 2..9 or 3..10 rather than the default 1..8. |
+| [Mute]{.kbd .button} button | Switches the Track Control row of buttons to toggle the *mute* status of tracks |
+| [Solo]{.kbd .button} button | Switches the Track Control row of buttons to toggle the *solo* status of tracks |
+| [Arm]{.kbd .button} button | Switches the Track Control row of buttons to toggle the *record-arm* status of tracks |

@@ -2,6 +2,7 @@
 The [Session]{.kbd .menu} menu groups together everything related to the
 session and the file operations.
 
+```{eval-rst}
 +----------------------------------+-------------------------------------------------+
 | New...                           | Creates a [new](@@newopen-session-dialog)       |
 |                                  | session                                         |
@@ -126,3 +127,4 @@ session and the file operations.
 | Quit                             | Exits Ardour. Prompts for saving the session if |
 |                                  | it has been modified.                           |
 +----------------------------------+-------------------------------------------------+
+```

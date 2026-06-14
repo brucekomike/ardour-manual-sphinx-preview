@@ -8,20 +8,20 @@ mute or record enable state). For full details, see the section called
 
 The columns in this list are as follows:
 
-  ------ --------------------------------------------------------------------
-  Col    the colour that the group uses for its tab in the editor.
-  Name   the group name.
-  V      whether the tracks and busses in the group are visible.
-  On     whether the group is enabled.
-  G      ticked if the constituents of the group are sharing gain settings.
-  Rel    ticked if shared gains are relative.
-  M      ticked if the constituents share mute status.
-  S      ticked if the constituents share solo status.
-  Rec    ticked if the constituents share record-enable status.
-  Mon    whether the constituents share monitor settings.
-  Sel    whether the constituents are selected together.
-  A      whether the constituents share active status.
-  ------ --------------------------------------------------------------------
+|      |                                                                    |
+|------|--------------------------------------------------------------------|
+| Col  | the colour that the group uses for its tab in the editor.          |
+| Name | the group name.                                                    |
+| V    | whether the tracks and busses in the group are visible.            |
+| On   | whether the group is enabled.                                      |
+| G    | ticked if the constituents of the group are sharing gain settings. |
+| Rel  | ticked if shared gains are relative.                               |
+| M    | ticked if the constituents share mute status.                      |
+| S    | ticked if the constituents share solo status.                      |
+| Rec  | ticked if the constituents share record-enable status.             |
+| Mon  | whether the constituents share monitor settings.                   |
+| Sel  | whether the constituents are selected together.                    |
+| A    | whether the constituents share active status.                      |
 
 ## Buttons {#track-and-bus-group-list-buttons}
 
@@ -34,6 +34,7 @@ group (but not the tracks in this group).
 The context menu, reached by [right]{.kbd .mouse}-clicking a group,
 allows for multiple mixing actions:
 
+```{eval-rst}
 +-----------------------------------+-----------------------------------+
 | Create New Group From...          | Creates a new group based on some |
 |                                   | track properties. The choice is:  |
@@ -74,16 +75,17 @@ allows for multiple mixing actions:
 |                                   | changing a property in a track    |
 |                                   | won\'t affect the others.         |
 +-----------------------------------+-----------------------------------+
+```
 
 When a group is selected, [right]{.kbd .mouse} clicking it adds the
 following menu entries:
 
-  -------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------
-  Create New Group with Master From...   Acts exactly as the previous choice, but also creates a Control Master tied to these tracks.
-  Edit Group...                          Shows the [Track/bus Group]{.kbd .menu} [window](@@the-track-and-bus-group-list).
-  Collect Group                          Rearranges the tracks/busses order to visually group together the tracks belonging to the same group.
-  Remove Group                           Deletes the group (but not the tracks/busses belonging to this group).
-  Assign Group to Control Master...      Allows to link all the tracks in the group to a chosen VCA.
-  Add/Remove Subgroup Bus                Creates/removes a new bus connected to the Master, and send the output of all the tracks in the group to this new bus.
-  Add New Aux Bus (pre/post-fader)       Creates a new bus connected to the Master, and create [Aux Sends](@@aux-sends) (pre or post-fader) in all the tracks in the group to this new bus.
-  -------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Create New Group with Master From... | Acts exactly as the previous choice, but also creates a Control Master tied to these tracks. |
+| Edit Group... | Shows the [Track/bus Group]{.kbd .menu} [window](@@the-track-and-bus-group-list). |
+| Collect Group | Rearranges the tracks/busses order to visually group together the tracks belonging to the same group. |
+| Remove Group | Deletes the group (but not the tracks/busses belonging to this group). |
+| Assign Group to Control Master... | Allows to link all the tracks in the group to a chosen VCA. |
+| Add/Remove Subgroup Bus | Creates/removes a new bus connected to the Master, and send the output of all the tracks in the group to this new bus. |
+| Add New Aux Bus (pre/post-fader) | Creates a new bus connected to the Master, and create [Aux Sends](@@aux-sends) (pre or post-fader) in all the tracks in the group to this new bus. |

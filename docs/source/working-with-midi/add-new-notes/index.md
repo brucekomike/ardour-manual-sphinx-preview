@@ -33,11 +33,11 @@ the presets.
 The [Auto]{.dfn} option in three drop-down lists works differently in
 all three cases:
 
-  ---------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Length     The length will be defined by the grid snapping setting
-  Channel    This value will be inherited from the closest note
-  Velocity   The value will be an interpolation between two closest notes, the position of the newly added note relative to either of the two notes will also be taken into consideration
-  ---------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Length | The length will be defined by the grid snapping setting |
+| Channel | This value will be inherited from the closest note |
+| Velocity | The value will be an interpolation between two closest notes, the position of the newly added note relative to either of the two notes will also be taken into consideration |
 
 ## Using Step Entry {#add-new-notes-using-step-entry}
 

@@ -3,18 +3,18 @@ In the [track header](@@audio-track-controls) (editor window, left pane)
 is a button labelled [p]{.kbd .menu} (for \"Playlist\"). A click on this
 button displays the following menu:
 
-  --------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------
-  *(Local Playlists)*   Shows all of the playlists associated with this track, and indicates the currently selected playlist
-  Select...             Allows switching playlists, either for this track or multiple ones (more about that later)
-  Rename...             Displays a dialog to rename the current playlist
-  New Playlist...       Creates a new empty playlist, and the track switches to the new playlist
-  Copy Playlist...      Creates a new playlist that is an independent copy of the current playlist; the track switches to the new playlist
-  Clear Current         Removes all regions from the current playlist
-  Advanced              
-  Copy from ...         Creates a new playlist that is an independent copy of a playlist from this track or another one; the track switches to the new playlist
-  Share with ...        Uses a playlist from this track or another one; any edit to this playlist will be reflected on the other track(s) that use this playlist
-  Steal from ...        Uses a playlist from this track or another one and removes it from the local playlists in the \"robbed\" track. Otherwise, behaves like \"Share with ...\"
-  --------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| *(Local Playlists)* | Shows all of the playlists associated with this track, and indicates the currently selected playlist |
+| Select... | Allows switching playlists, either for this track or multiple ones (more about that later) |
+| Rename... | Displays a dialog to rename the current playlist |
+| New Playlist... | Creates a new empty playlist, and the track switches to the new playlist |
+| Copy Playlist... | Creates a new playlist that is an independent copy of the current playlist; the track switches to the new playlist |
+| Clear Current | Removes all regions from the current playlist |
+| Advanced |  |
+| Copy from ... | Creates a new playlist that is an independent copy of a playlist from this track or another one; the track switches to the new playlist |
+| Share with ... | Uses a playlist from this track or another one; any edit to this playlist will be reflected on the other track(s) that use this playlist |
+| Steal from ... | Uses a playlist from this track or another one and removes it from the local playlists in the \"robbed\" track. Otherwise, behaves like \"Share with ...\" |
 
 When *Stealing* a playlist, it does not remove the playlist from the
 robbed track. The playlist now belongs to the current track, and the

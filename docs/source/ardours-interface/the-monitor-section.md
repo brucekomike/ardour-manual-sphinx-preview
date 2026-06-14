@@ -55,13 +55,13 @@ the desired Solo mode. Excl. Solo and Solo Mute then modify the modes
 behaviour. See [Muting and Soloing](@@muting-and-soloing). The current
 mode is indicated by the illuminated \'LED\' on the button.
 
-  ------------- ------------------------------------------------------------------------------------------
-  SiP           This selects *Solo In Place* as the current solo mode and cancels the previous mode.
-  PFL           This selects *Pre Fade Listen* as the current solo mode and cancels the previous mode.
-  AFL           This selects *After Fade Listen* as the current solo mode and cancels the previous mode.
-  Excl. Solo    This enables or disables the *Exclusive Solo* option.
-  Solo » Mute   This enables or disables the *Solo Mute* option.
-  ------------- ------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| SiP | This selects *Solo In Place* as the current solo mode and cancels the previous mode. |
+| PFL | This selects *Pre Fade Listen* as the current solo mode and cancels the previous mode. |
+| AFL | This selects *After Fade Listen* as the current solo mode and cancels the previous mode. |
+| Excl. Solo | This enables or disables the *Exclusive Solo* option. |
+| Solo » Mute | This enables or disables the *Solo Mute* option. |
 
 Changing the solo mode (SiP, PFL or AFL) will update the labels on the
 mixer strips\' solo controls accordingly.
@@ -82,10 +82,10 @@ audio that is ultimately available at the monitor outputs.
 These controls set the level of the audio when a channel or bus solo is
 engaged.
 
-  ------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Solo Boost   This is the level that will be added to the current main monitor level when a track or bus is soloed, providing a convenient boost in level for the isolated signal. The rotary control has a range of 0dB to +10dB and can be set at any point between these two values. A drop down menu with pre-defined values is also provided for convenience.
-  SiP Cut      Only relevant to Solo in Place mode. This sets the level that all muted tracks or busses will be muted by. By default it is −∞ i.e. the non soloed tracks are totally inaudible. The level can be raised to make the other tracks audible, though dimmed. This is also sometimes referred to *Solo in Front*. The rotary control has a range of −∞ to +0dB and can be set at any point between these two values. A drop down menu with pre-defined values is also provided for convenience.
-  ------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Solo Boost | This is the level that will be added to the current main monitor level when a track or bus is soloed, providing a convenient boost in level for the isolated signal. The rotary control has a range of 0dB to +10dB and can be set at any point between these two values. A drop down menu with pre-defined values is also provided for convenience. |
+| SiP Cut | Only relevant to Solo in Place mode. This sets the level that all muted tracks or busses will be muted by. By default it is −∞ i.e. the non soloed tracks are totally inaudible. The level can be raised to make the other tracks audible, though dimmed. This is also sometimes referred to *Solo in Front*. The rotary control has a range of −∞ to +0dB and can be set at any point between these two values. A drop down menu with pre-defined values is also provided for convenience. |
 
 ## Dim level control
 
@@ -100,12 +100,12 @@ Each of the individual paths through the Monitor Section, (e.g. [L]{.kbd
 .menu} and [R]{.kbd .menu} for stereo), can be controlled individually.
 Four functions are available:
 
-  ------ ---------------------------------------------------------------------------------
-  Mute   Mutes the selected path(s)
-  Dim    Reduces the selected path(s) level by the amount set with the Dim level control
-  Solo   Solos the selected channel(s)
-  Inv    Inverts the selected channel(s) polarity
-  ------ ---------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Mute | Mutes the selected path(s) |
+| Dim | Reduces the selected path(s) level by the amount set with the Dim level control |
+| Solo | Solos the selected channel(s) |
+| Inv | Inverts the selected channel(s) polarity |
 
 ## Global Monitor controls
 

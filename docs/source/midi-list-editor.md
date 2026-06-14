@@ -19,14 +19,14 @@ MIDI \> List Editor...]{.kbd .menu}.
 
 The window displays the following MIDI data:
 
-  --------- --------------------------------------------------------------------------------------------------------------------------------------------------
-  Start     the timestamp of the start of the note
-  Channel   the MIDI channel of the event
-  Num       The [MIDI number](@@midi-notes-ref) of the note
-  Name      The MIDI name of the note, made of its English name and octave (e.g. \"C4\")
-  Vel       the velocity of the note, i.e. its volume, between 0 (silent) and 127 (full)
-  Length    duration of the note, either expressed as a number (in ticks, related to the tempo) or as a text (fraction of a beat, also related to the tempo)
-  --------- --------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Start | the timestamp of the start of the note |
+| Channel | the MIDI channel of the event |
+| Num | The [MIDI number](@@midi-notes-ref) of the note |
+| Name | The MIDI name of the note, made of its English name and octave (e.g. \"C4\") |
+| Vel | the velocity of the note, i.e. its volume, between 0 (silent) and 127 (full) |
+| Length | duration of the note, either expressed as a number (in ticks, related to the tempo) or as a text (fraction of a beat, also related to the tempo) |
 
 At the top of the window is a [Sound Selected MIDI Notes]{.kbd .menu}
 button, which toggles playing a note as it is selected.

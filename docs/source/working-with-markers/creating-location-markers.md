@@ -63,13 +63,13 @@ There are three ways to remove a location marker:
 The context (right-click) menu for location markers has more options
 than the ones mentioned above:
 
-  ----------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Locate to Here                Moves the playhead to the selected marker.
-  Play from Here                Moves the playhead to the selected marker and starts playback.
-  Move Mark to Playhead         This changes the position of the selected marker to that of the playhead.
-  Create Range to next Marker   This creates a pair of range markers between the selected marker and the next one to the right on the timeline.
-  Promote to Time Origin        This makes the position of the chosen range marker the origin time. This is mostly useful when the *Display delta to origin marker* clock mode is enabled to display the difference between current playhead position and the origin time. Absolute time stays unaffected.
-  Hide                          This hides the selected marker from the ruler until the user chooses to unhide it.
-  Rename...                     This opens a dialog to rename the marker.
-  Lock                          This prevents a marker from being accidentally moved elsewhere.
-  ----------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Locate to Here | Moves the playhead to the selected marker. |
+| Play from Here | Moves the playhead to the selected marker and starts playback. |
+| Move Mark to Playhead | This changes the position of the selected marker to that of the playhead. |
+| Create Range to next Marker | This creates a pair of range markers between the selected marker and the next one to the right on the timeline. |
+| Promote to Time Origin | This makes the position of the chosen range marker the origin time. This is mostly useful when the *Display delta to origin marker* clock mode is enabled to display the difference between current playhead position and the origin time. Absolute time stays unaffected. |
+| Hide | This hides the selected marker from the ruler until the user chooses to unhide it. |
+| Rename... | This opens a dialog to rename the marker. |
+| Lock | This prevents a marker from being accidentally moved elsewhere. |

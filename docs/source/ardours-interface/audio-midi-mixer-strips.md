@@ -50,24 +50,24 @@ menu, which is exactly the same as clicking on the Track name button.
 
 Clicking the Track name button will bring up a menu:
 
-  ------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Color...                                    Changes the strip/track color
-  Comments...                                 Shows an editor to put comments about the track, see below the Comments button
-  Inputs...                                   Shows the Routing grid for the inputs of the track
-  Outputs...                                  Shows the Routing grid for the outputs of the track
-  Save As Template...                         Allows to save the track without its media content (I/O, effects,...) for later reuse
-  Rename...                                   Changes the name of the track (effective both in the Mixer and the Editor)
-  [Active]{.kbd .option}                      Select the active status of the track. An inactive track won\'t output any sound
-  [Strict I/O]{.kbd .option}                  While in [Strict I/O](@@trackbus-signal-flow) mode, a track *always* has as many output as it has inputs, regardless of the effects. When disabled, a stereo effect put on a mono track will result in a stereo output for the strip.
-  Disk I/O                                    This submenu allows switching between recording pre-fader signal, post-fader signal, or with custom record and playback positions. Only available for tracks.
-  Pin Connections...                          Shows the [Pin Configuration]{.kbd .menu} window that shows (and allows to modify) all the signal flows inside the track. Only available for tracks and busses with at least one processor in the mixer strip.
-  Patch selector...                           Opens a dialog for selecting a patch provided by MIDNAM. Only available for MIDI tracks.
-  Fan out to Busses...                        Creates one bus per each output of a virtual instrument and connects to created busses. Only available for MIDI tracks where a virtual instrument has more than two audio outputs.
-  Fan out to Tracks...                        Creates one track per each output of a virtual instrument and connects to created tracks. Only available for MIDI tracks where a virtual instrument has more than two audio outputs.
-  [Protect Against Denormals]{.kbd .option}   Uses a trick to get rid of *denormals*, which are very small numbers the CPU can have a hard time dealing with. To be used if the CPU consumption for plugins is noticeably higher than expected
-  Duplicate...                                Copies the track to a new one, optionally with its playlist
-  Remove                                      Deletes the track and its playlist
-  ------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Color... | Changes the strip/track color |
+| Comments... | Shows an editor to put comments about the track, see below the Comments button |
+| Inputs... | Shows the Routing grid for the inputs of the track |
+| Outputs... | Shows the Routing grid for the outputs of the track |
+| Save As Template... | Allows to save the track without its media content (I/O, effects,...) for later reuse |
+| Rename... | Changes the name of the track (effective both in the Mixer and the Editor) |
+| [Active]{.kbd .option} | Select the active status of the track. An inactive track won\'t output any sound |
+| [Strict I/O]{.kbd .option} | While in [Strict I/O](@@trackbus-signal-flow) mode, a track *always* has as many output as it has inputs, regardless of the effects. When disabled, a stereo effect put on a mono track will result in a stereo output for the strip. |
+| Disk I/O | This submenu allows switching between recording pre-fader signal, post-fader signal, or with custom record and playback positions. Only available for tracks. |
+| Pin Connections... | Shows the [Pin Configuration]{.kbd .menu} window that shows (and allows to modify) all the signal flows inside the track. Only available for tracks and busses with at least one processor in the mixer strip. |
+| Patch selector... | Opens a dialog for selecting a patch provided by MIDNAM. Only available for MIDI tracks. |
+| Fan out to Busses... | Creates one bus per each output of a virtual instrument and connects to created busses. Only available for MIDI tracks where a virtual instrument has more than two audio outputs. |
+| Fan out to Tracks... | Creates one track per each output of a virtual instrument and connects to created tracks. Only available for MIDI tracks where a virtual instrument has more than two audio outputs. |
+| [Protect Against Denormals]{.kbd .option} | Uses a trick to get rid of *denormals*, which are very small numbers the CPU can have a hard time dealing with. To be used if the CPU consumption for plugins is noticeably higher than expected |
+| Duplicate... | Copies the track to a new one, optionally with its playlist |
+| Remove | Deletes the track and its playlist |
 
 ## Inputs
 
@@ -77,14 +77,14 @@ connected to the system inputs, ready for recording, as shown by the
 number(s). Clicking the dropdown Inputs button will allow to change the
 inputs, through a menu:
 
-  ------------------ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Disconnect         Disconnects everything, i.e. the track has no input
-  In *n*             Those are the system inputs, e.g. to record from the soundcard. A mono track will have *In 1* and *In 2* separated, while a stereo track can have *In 1+2*
-  *Track n output*   All the outputs of compatible tracks, e.g., a mono track can only receive a mono signal, a MIDI track can only receive MIDI signal, ...
-  Add Audio Port     Adds an audio input to the track, i.e. a mono audio track becomes a stereo one
-  Add MIDI Port      Adds a MIDI input to the track. Adding it to an audio track makes it a mixed Audio/MIDI track. This can be useful e.g. to feed some plugins with a MIDI signal to control the audio, like a vocoder
-  Routing Grid       Shows the [[Routing Grid]{.kbd .menu} window](@@patchbay), which allows for more complex input configuration
-  ------------------ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Disconnect | Disconnects everything, i.e. the track has no input |
+| In *n* | Those are the system inputs, e.g. to record from the soundcard. A mono track will have *In 1* and *In 2* separated, while a stereo track can have *In 1+2* |
+| *Track n output* | All the outputs of compatible tracks, e.g., a mono track can only receive a mono signal, a MIDI track can only receive MIDI signal, ... |
+| Add Audio Port | Adds an audio input to the track, i.e. a mono audio track becomes a stereo one |
+| Add MIDI Port | Adds a MIDI input to the track. Adding it to an audio track makes it a mixed Audio/MIDI track. This can be useful e.g. to feed some plugins with a MIDI signal to control the audio, like a vocoder |
+| Routing Grid | Shows the [[Routing Grid]{.kbd .menu} window](@@patchbay), which allows for more complex input configuration |
 
 The [Routing Grid]{.kbd .menu} can also be shown by right clicking the
 dropdown Inputs button. It allows to make the connections through a
@@ -128,11 +128,11 @@ the track is mono, stereo, or has multiple channels.
 
 Right clicking the Panner will show a menu:
 
-  ------------------------ -----------------------------------------------------------------------------------
-  [Bypass]{.kbd .option}   When checked, the panner is grayed, and the signal is not affected by it
-  Reset                    Resets the panner to its default settings, e.g. for a mono signal, it is centered
-  Edit...                  Shows a [Panner]{.kbd .menu} dialog, which allows for fine tuning of the panner
-  ------------------------ -----------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| [Bypass]{.kbd .option} | When checked, the panner is grayed, and the signal is not affected by it |
+| Reset | Resets the panner to its default settings, e.g. for a mono signal, it is centered |
+| Edit... | Shows a [Panner]{.kbd .menu} dialog, which allows for fine tuning of the panner |
 
 See [Panning](@@panning) to learn more about how to control the panner,
 and what kind of panners are available inside Ardour.
@@ -215,12 +215,12 @@ this number.
 
 This button allows to choose the mode used regarding automation:
 
-  -------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Manual   *(default)* The playback won\'t use the fader automation data
-  Play     Enables playback/use of fader automation data
-  Write    While the transport is rolling, all fader changes will be recorded to the fader automation lane
-  Touch    While the transport is rolling, touching the fader will initiate recording all fader changes until the fader is released. When the fader is not being touched, existing automation data will be played/used to control the gain level.
-  -------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Manual | *(default)* The playback won\'t use the fader automation data |
+| Play | Enables playback/use of fader automation data |
+| Write | While the transport is rolling, all fader changes will be recorded to the fader automation lane |
+| Touch | While the transport is rolling, touching the fader will initiate recording all fader changes until the fader is released. When the fader is not being touched, existing automation data will be played/used to control the gain level. |
 
 ### Mix group
 
@@ -236,13 +236,13 @@ The metering displayed in the meter is by default is \'Post\', i.e. Post
 fader. It can be changed with this button to Any point of the signal
 flow:
 
-  -------- ---------------------------------------------------------------------------------------------------------------------------------------------
-  In       The input of the track
-  Pre      Pre-fader
-  Post     Post-fader
-  Out      The output of the track
-  Custom   A *Meter* processor is added to the processor box and can be set anywhere (by dragging and dropping) to probe the signal flow at that point
-  -------- ---------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| In | The input of the track |
+| Pre | Pre-fader |
+| Post | Post-fader |
+| Out | The output of the track |
+| Custom | A *Meter* processor is added to the processor box and can be set anywhere (by dragging and dropping) to probe the signal flow at that point |
 
 ## Output(s)
 

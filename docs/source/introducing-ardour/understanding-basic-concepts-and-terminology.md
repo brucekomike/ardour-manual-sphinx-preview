@@ -105,12 +105,12 @@ Ardour allows processing audio and MIDI using any number of
 plugins on Windows or AU plugins on Mac OS X. Ardour supports the
 following plugin standards:
 
-  ------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------
-  [LADSPA]{.abbr title="Linux Audio Developers' Simple Plugin API"}   the first major plugin standard for Linux. Many LADSPA plugins are available, mostly free and open-source.
-  [LV2]{.abbr title="LADSPA Version 2"}                               the successor to LADSPA. Lots of plugins have been ported from LADSPA to LV2, and also many new plugins written.
-  [VST]{.abbr title="Virtual Studio Technology"}                      Ardour supports VST plugins that have been compiled for Linux.
-  [AU]{.abbr title="Audio Units"}                                     Mac OS X versions of Ardour support AudioUnit plugins.
-  ------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| [LADSPA]{.abbr title="Linux Audio Developers' Simple Plugin API"} | the first major plugin standard for Linux. Many LADSPA plugins are available, mostly free and open-source. |
+| [LV2]{.abbr title="LADSPA Version 2"} | the successor to LADSPA. Lots of plugins have been ported from LADSPA to LV2, and also many new plugins written. |
+| [VST]{.abbr title="Virtual Studio Technology"} | Ardour supports VST plugins that have been compiled for Linux. |
+| [AU]{.abbr title="Audio Units"} | Mac OS X versions of Ardour support AudioUnit plugins. |
 
 Ardour has some support for running Windows VST plugins on Linux, but
 this is rather complicated, extremely difficult for the Ardour

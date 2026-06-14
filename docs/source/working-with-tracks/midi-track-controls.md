@@ -133,11 +133,11 @@ only selected channels]{.kbd .menu} is selected, a group of three
 buttons, each appearing below their respective 1-by-16 grids, will
 become sensitive to mouse clicks. They perform the following functions:
 
-  -------- ---------------------------------------------------------------------------------------------------------------
-  All      Selects all the channels in the 1-by-16 grid above it; all the squares become lit with green
-  None     Deselects all the channels in the 1-by-16 grid above it; all the squares become unlit
-  Invert   Any channel in the 1-by-16 grid that is lit green becomes unlit, and any unlit channel becomes lit with green
-  -------- ---------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| All | Selects all the channels in the 1-by-16 grid above it; all the squares become lit with green |
+| None | Deselects all the channels in the 1-by-16 grid above it; all the squares become unlit |
+| Invert | Any channel in the 1-by-16 grid that is lit green becomes unlit, and any unlit channel becomes lit with green |
 
 ### The Patch Selector {#the-patch-selector .clear}
 

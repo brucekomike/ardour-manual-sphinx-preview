@@ -10,14 +10,14 @@ Insert Time]{.kbd .menu} menu.
 The Insert Time window not only allows to set the time inserted, but
 also some fine-tuning options:
 
-  ------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Insert Time starting at:              Sets the point in the session where the time will be added. By default, it is the playhead\'s position
-  Time to insert:                       Duration of the blank space inserted
-  Intersected regions should:           A choice as to what happens to regions that exists at the Insert Time set above. See below.
-  Apply to all the track\'s playlists   As a track can have multiple [playlists](@@understanding-playlists), the insertion can happen either only on the active playlist or on all the playlists of this track.
-  Move markers                          As a [marker](@@working-with-markers) can be [locked]{.kbd .option}, this option and the two subjacent ones allow to shift the time position of those markers.
-  Move tempo and meter changes          The [tempo and meter](@@tempo-and-meter) markers, that can be used to change the tempo along the session, can also be shifted in the process. Though, moving the tempo markers while e.g. keeping the MIDI regions unaffected can create oddities.
-  ------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Insert Time starting at: | Sets the point in the session where the time will be added. By default, it is the playhead\'s position |
+| Time to insert: | Duration of the blank space inserted |
+| Intersected regions should: | A choice as to what happens to regions that exists at the Insert Time set above. See below. |
+| Apply to all the track\'s playlists | As a track can have multiple [playlists](@@understanding-playlists), the insertion can happen either only on the active playlist or on all the playlists of this track. |
+| Move markers | As a [marker](@@working-with-markers) can be [locked]{.kbd .option}, this option and the two subjacent ones allow to shift the time position of those markers. |
+| Move tempo and meter changes | The [tempo and meter](@@tempo-and-meter) markers, that can be used to change the tempo along the session, can also be shifted in the process. Though, moving the tempo markers while e.g. keeping the MIDI regions unaffected can create oddities. |
 
 Both the two time fields have a useful context menu, that allows to
 copy/paste the time and change the display among one of the [clock
@@ -31,11 +31,11 @@ insertion point.
 The \"Intersected regions should\" dropdown allows to select what
 happens to regions that cross the insertion position:
 
-  -------------------------------------- ---------------------------------------------------------------------------------------------------------------
-  [stay in position]{.dfn} *(default)*   The crossed regions are not affected by the time insertion. Only regions after the insertion point are moved.
-  [move]{.dfn}                           The crossed regions are shifted in time.
-  [be split]{.dfn}                       The crossed regions are split, and the section after the time insertion point is shifted in time.
-  -------------------------------------- ---------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| [stay in position]{.dfn} *(default)* | The crossed regions are not affected by the time insertion. Only regions after the insertion point are moved. |
+| [move]{.dfn} | The crossed regions are shifted in time. |
+| [be split]{.dfn} | The crossed regions are split, and the section after the time insertion point is shifted in time. |
 
 This last mode allows a *brute force* insertion, creating a blank space
 in all the selected tracks, and replacing multiple operations.

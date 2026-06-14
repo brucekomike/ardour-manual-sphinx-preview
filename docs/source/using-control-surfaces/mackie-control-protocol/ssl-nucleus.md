@@ -116,28 +116,28 @@ design features of the Nucleus that might change your opinion.
 
 ### Cons
 
-  --------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------
-  No Master Faster                                          It is not possible to control the level of the Master bus or Monitor section. Really don\'t know what SSL was thinking here.
-  No dedicated rec-enable buttons                           You have to press the \"Rec\" button and convert the per-strip \"Select\" buttons into rec-enables
-  No dedicated automation buttons                           You have to press the \"Auto\" button and convert the first 4 vpots into 4 automation-related buttons, losing your current view of the session.
-  No buttons with Mackie-defined \"Marker\" functionality   Mackie\'s design intentions for the interoperation of the Marker, rewind and ffwd buttons requires profile editing in order to function properly.
-  No \"Dyn\" button                                         This is hard to assign in an edited profile. To be fair, other Mackie Control devices also lack this button.
-  --------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| No Master Faster | It is not possible to control the level of the Master bus or Monitor section. Really don\'t know what SSL was thinking here. |
+| No dedicated rec-enable buttons | You have to press the \"Rec\" button and convert the per-strip \"Select\" buttons into rec-enables |
+| No dedicated automation buttons | You have to press the \"Auto\" button and convert the first 4 vpots into 4 automation-related buttons, losing your current view of the session. |
+| No buttons with Mackie-defined \"Marker\" functionality | Mackie\'s design intentions for the interoperation of the Marker, rewind and ffwd buttons requires profile editing in order to function properly. |
+| No \"Dyn\" button | This is hard to assign in an edited profile. To be fair, other Mackie Control devices also lack this button. |
 
 ### Pros
 
-  -------------------------------- -----------------------------------------------------------------------------------------
-  Single cable connectivity        No need for multiple MIDI cables to get 16 faders
-  Broadcast connectivity           Connecting to multiple computers does not require recabling
-  16 faders from a single box      No need to figure out how to keep extenders together
-  Meters separated from displays   Contrast with the Mackie Control Universal Pro, where meters interfere with the display
-  DAW profiles                     Easy to flip profiles for use by different DAWs.
-  -------------------------------- -----------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Single cable connectivity | No need for multiple MIDI cables to get 16 faders |
+| Broadcast connectivity | Connecting to multiple computers does not require recabling |
+| 16 faders from a single box | No need to figure out how to keep extenders together |
+| Meters separated from displays | Contrast with the Mackie Control Universal Pro, where meters interfere with the display |
+| DAW profiles | Easy to flip profiles for use by different DAWs. |
 
 ### Ambiguous
 
-  ------------------------------------------------------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Ability to make buttons generate USB keyboard events   The extent to which this is useful reflects the target DAWs inability to manage all of its functionality via Mackie Control
-  Sophisticated \"profile\" editing                      It is nice to be able to reassign the functionality of most buttons, but this is only necessary because of the relatively few global buttons on the surface.
-  Builtin analog signal path                             SSL clearly expects users to route audio back from their computer via the Nucleus\' own 2 channel output path, and maybe even use the input path as well. They take up a significant amount of surface space with the controls for this signal path, space that could have been used for a master fader or more Mackie Control buttons. The USB audio device requires a proprietary driver, so Linux users can\'t use this, and OS X/Windows users will have to install a device driver (very odd for a USB audio device these days). The analog path also no doubt adds notable cost to the Nucleus. There\'s nothing wrong with this feature for users that don\'t already have a working analog/digital signal path for their computers. But who is going to spend \$5000 on a Nucleus that doesn\'t have this already?
-  ------------------------------------------------------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Ability to make buttons generate USB keyboard events | The extent to which this is useful reflects the target DAWs inability to manage all of its functionality via Mackie Control |
+| Sophisticated \"profile\" editing | It is nice to be able to reassign the functionality of most buttons, but this is only necessary because of the relatively few global buttons on the surface. |
+| Builtin analog signal path | SSL clearly expects users to route audio back from their computer via the Nucleus\' own 2 channel output path, and maybe even use the input path as well. They take up a significant amount of surface space with the controls for this signal path, space that could have been used for a master fader or more Mackie Control buttons. The USB audio device requires a proprietary driver, so Linux users can\'t use this, and OS X/Windows users will have to install a device driver (very odd for a USB audio device these days). The analog path also no doubt adds notable cost to the Nucleus. There\'s nothing wrong with this feature for users that don\'t already have a working analog/digital signal path for their computers. But who is going to spend \$5000 on a Nucleus that doesn\'t have this already? |

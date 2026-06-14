@@ -14,14 +14,14 @@ Scrolling can be done on-canvas, or with the [Summary](@@summary).
 
 ### On Canvas
 
-  Action                    Mouse                    Keyboard
-  ------------------------- ------------------------ -----------
-  Scrolling up              [⇑]{.kbd .mouse}         [↑]{.kbd}
-  Scrolling down            [⇓]{.kbd .mouse}         [↓]{.kbd}
-  Scrolling up one page                              [⇞]{.kbd}
-  Scrolling down one page                            [⇟]{.kbd}
-  Scrolling left            [⇑]{.kbd .mod3 .mouse}   
-  Scrolling right           [⇓]{.kbd .mod3 .mouse}   
+| Action                  | Mouse                  | Keyboard  |
+|-------------------------|------------------------|-----------|
+| Scrolling up            | [⇑]{.kbd .mouse}       | [↑]{.kbd} |
+| Scrolling down          | [⇓]{.kbd .mouse}       | [↓]{.kbd} |
+| Scrolling up one page   |                        | [⇞]{.kbd} |
+| Scrolling down one page |                        | [⇟]{.kbd} |
+| Scrolling left          | [⇑]{.kbd .mod3 .mouse} |           |
+| Scrolling right         | [⇓]{.kbd .mod3 .mouse} |           |
 
 Moving the playhead outside the view may scroll the screen accordingly,
 so using [←]{.kbd .mod2} or [→]{.kbd .mod2}, while not *scrolling* per
@@ -47,10 +47,10 @@ Controls](@@zoom-controls).
 
 ### On Canvas
 
-  ------------- ------------------------
-  Zooming in    [⇑]{.kbd .mod1 .mouse}
-  Zooming out   [⇓]{.kbd .mod1 .mouse}
-  ------------- ------------------------
+|             |                        |
+|-------------|------------------------|
+| Zooming in  | [⇑]{.kbd .mod1 .mouse} |
+| Zooming out | [⇓]{.kbd .mod1 .mouse} |
 
 ### In the Summary
 

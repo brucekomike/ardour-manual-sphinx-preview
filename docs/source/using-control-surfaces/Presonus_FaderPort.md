@@ -65,6 +65,7 @@ there is no selected track or bus, the controls will do nothing.
 
 The transport buttons all work as you would expect.
 
+```{eval-rst}
 +-----------------------------------+-----------------------------------+
 | Rewind                            | When pressed on its own, starts   |
 |                                   | the transport moving backwards.   |
@@ -105,6 +106,7 @@ The transport buttons all work as you would expect.
 | Record Enable                     | Toggles the global record enable  |
 |                                   | setting                           |
 +-----------------------------------+-----------------------------------+
+```
 
 ### Other Global Controls
 
@@ -131,6 +133,7 @@ action. The menu for selecting the action is somewhat confusing and it
 can be hard to find what you\'re looking for. However, all possible
 actions are there, so keep looking!
 
+```{eval-rst}
 +-----------------------------------+-----------------------------------+
 | Mix                               | Possible actions include:         |
 |                                   |                                   |
@@ -199,9 +202,11 @@ actions are there, so keep looking!
 |                                   | create a new (unnamed) marker at  |
 |                                   | the current playhead position.    |
 +-----------------------------------+-----------------------------------+
+```
 
 ### Per-track Controls
 
+```{eval-rst}
 +-----------------------------------+-----------------------------------+
 | Mute                              | This toggles the mute setting of  |
 |                                   | the currently controlled          |
@@ -291,6 +296,7 @@ actions are there, so keep looking!
 |                                   | and will not be used for          |
 |                                   | controlling gain.                 |
 +-----------------------------------+-----------------------------------+
+```
 
 ### Track Selection Controls
 
@@ -299,6 +305,7 @@ changing the selected track in Ardour\'s editor window. If you select
 more than 1 track, the Faderport will control the first selected track
 and *only* that track/bus.
 
+```{eval-rst}
 +-----------------------------------+-----------------------------------+
 | Left (arrow)                      | This causes the Ardour GUI to     |
 |                                   | select the previous track/bus     |
@@ -362,3 +369,4 @@ and *only* that track/bus.
 | Bank                              | The \"Bank\" button is currently  |
 |                                   | not used by Ardour                |
 +-----------------------------------+-----------------------------------+
+```

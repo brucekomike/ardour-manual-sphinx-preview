@@ -83,25 +83,26 @@ the other way around).
 
 In Ardour\'s case Lua is available:
 
-  ------------------------ ---------------------------------------------------------------------------------------------
-  Editor Action Scripts    User initiated actions (menu, shortcuts) for batch processing
-  Editor Hooks/Callbacks   Event triggered actions for the Editor/Mixer GUI
-  Session Scripts          Scripts called at the start of every audio cycle (session, real-time)
-  DSP Scripts              Audio/Midi processor - plugins with access to the Ardour session (per track/bus, real-time)
-  Script Console           Action Script commandline
-  ------------------------ ---------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Editor Action Scripts | User initiated actions (menu, shortcuts) for batch processing |
+| Editor Hooks/Callbacks | Event triggered actions for the Editor/Mixer GUI |
+| Session Scripts | Scripts called at the start of every audio cycle (session, real-time) |
+| DSP Scripts | Audio/Midi processor - plugins with access to the Ardour session (per track/bus, real-time) |
+| Script Console | Action Script commandline |
 
 There are is also a special mode:
 
-  ----------------------------------- -----------------------------------
-  Commandline Tool                    Replaces the complete Editor GUI,
-                                      direct access to libardour (no GUI)
-                                      from the commandline.\
-                                      *Be aware that the vast majority of
-                                      complex functionality is provided
-                                      by the Editor UI.*
-
-  ----------------------------------- -----------------------------------
+```{eval-rst}
++-----------------------------------+-----------------------------------+
+| Commandline Tool                  | Replaces the complete Editor GUI, |
+|                                   | direct access to libardour (no    |
+|                                   | GUI) from the commandline.\       |
+|                                   | *Be aware that the vast majority  |
+|                                   | of complex functionality is       |
+|                                   | provided by the Editor UI.*       |
++-----------------------------------+-----------------------------------+
+```
 
 ## Managing Scripts {#Managing Scripts}
 
@@ -109,23 +110,23 @@ Ardour searches for Lua scripts in the `scripts` folder in
 `$ARDOUR_DATA_PATH`, Apart from scripts included directly with Ardour,
 this includes
 
-  ----------- ---------------------------------------------
-  GNU/Linux   `$HOME/.config/ardour8/scripts`
-  Mac OS X    `$HOME/Library/Preferences/Ardour8/scripts`
-  Windows     `%localappdata%\ardour8\scripts`
-  ----------- ---------------------------------------------
+|           |                                             |
+|-----------|---------------------------------------------|
+| GNU/Linux | `$HOME/.config/ardour8/scripts`             |
+| Mac OS X  | `$HOME/Library/Preferences/Ardour8/scripts` |
+| Windows   | `%localappdata%\ardour8\scripts`            |
 
 Files must end with `.lua` file extension.
 
 Scripts are managed via the GUI
 
-  ------------------------ ----------------------------------------------------------------------------------------------------------------------------
-  Editor Action Scripts    Menu → Edit → Scripted Actions → Manage ; or alternatively right-click on an action-script button top-right in the toolbar
-  Editor Hooks/Callbacks   Menu → Edit → Scripted Actions → Manage
-  Session Scripts          Menu → Session → Scripting → Add/Remove Script
-  DSP Scripts              Are added like other plugins to a mixer-strip\'s processor box
-  Script Console           Menu → Window → Scripting
-  ------------------------ ----------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Editor Action Scripts | Menu → Edit → Scripted Actions → Manage ; or alternatively right-click on an action-script button top-right in the toolbar |
+| Editor Hooks/Callbacks | Menu → Edit → Scripted Actions → Manage |
+| Session Scripts | Menu → Session → Scripting → Add/Remove Script |
+| DSP Scripts | Are added like other plugins to a mixer-strip\'s processor box |
+| Script Console | Menu → Window → Scripting |
 
 ## Script Layout {#Script Layout}
 
@@ -160,13 +161,13 @@ The common part for all scripts is the \"Descriptor\". It\'s a Lua
 function which returns a table (key/values) with the following keys (the
 keys are case-sensitive):
 
-  ------------------- --------------------------------------------------------------------------------------------------------
-  type \[required\]   one of \"`DSP`\", \"`Session`\", \"`EditorHook`\", \"`EditorAction`\" (the type is not case-sensitive)
-  name \[required\]   Name/Title of the script
-  author              Your Name
-  license             The license of the script (e.g. \"GPL\" or \"MIT\")
-  description         A longer text explaining to the user what the script does
-  ------------------- --------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| type \[required\] | one of \"`DSP`\", \"`Session`\", \"`EditorHook`\", \"`EditorAction`\" (the type is not case-sensitive) |
+| name \[required\] | Name/Title of the script |
+| author | Your Name |
+| license | The license of the script (e.g. \"GPL\" or \"MIT\") |
+| description | A longer text explaining to the user what the script does |
 
 Scripts that come with Ardour (currently mostly examples) can be found
 in the [Source

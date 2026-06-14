@@ -32,10 +32,10 @@ These command are both in the [Region \> Trim]{.kbd .menu} main menu
 [right]{.kbd .mouse} click on a region \> *Name_Of_The_Region* \>
 Trim]{.kbd .menu}
 
-  ---------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------
-  [Trim Start at Edit Point]{.dfn} ([j]{.kbd})   Trim selected region(s) start to edit point.
-  [Trim End at Edit Point]{.dfn} ([k]{.kbd})     Trim selected region(s) end to edit point.
-  [Trim to Loop/Punch]{.dfn}                     Trim selected region(s) beginning and end to the loop/punch boundaries (if it exists).
-  [Trim to Previous]{.dfn} ([j]{.kbd .mod1})     Trim the start of selected region(s) to the end of the previous region. If the region is too short, it is extended to its maximum to the left.
-  [Trim to Next]{.dfn} ([k]{.kbd .mod1})         Trim the end of selected region(s) to the start of the following region. If the region is too short, it is extended to its maximum to the right.
-  ---------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| [Trim Start at Edit Point]{.dfn} ([j]{.kbd}) | Trim selected region(s) start to edit point. |
+| [Trim End at Edit Point]{.dfn} ([k]{.kbd}) | Trim selected region(s) end to edit point. |
+| [Trim to Loop/Punch]{.dfn} | Trim selected region(s) beginning and end to the loop/punch boundaries (if it exists). |
+| [Trim to Previous]{.dfn} ([j]{.kbd .mod1}) | Trim the start of selected region(s) to the end of the previous region. If the region is too short, it is extended to its maximum to the left. |
+| [Trim to Next]{.dfn} ([k]{.kbd .mod1}) | Trim the end of selected region(s) to the start of the following region. If the region is too short, it is extended to its maximum to the right. |

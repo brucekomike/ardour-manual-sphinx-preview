@@ -65,9 +65,9 @@ cue markers in the session.
 
 The context menu for existing markers provides several more options:
 
-  ----------------------- ------------------------------------------------------------------------------------------------------
-  Set Cue:                Picking a cue from the list here will replace the selected marker with a marker for a different cue.
-  Locate to Here          This will move the playhead to the cue marker\'s position.
-  Play from Here          This will move the playhead to the cue marker\'s position and start playback.
-  Move Mark to Playhead   This will move the selected cue marker to the current position of the Playhead.
-  ----------------------- ------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Set Cue: | Picking a cue from the list here will replace the selected marker with a marker for a different cue. |
+| Locate to Here | This will move the playhead to the cue marker\'s position. |
+| Play from Here | This will move the playhead to the cue marker\'s position and start playback. |
+| Move Mark to Playhead | This will move the selected cue marker to the current position of the Playhead. |

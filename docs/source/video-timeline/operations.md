@@ -1,15 +1,15 @@
 # Workflow and Operations
 ## Overview of Operations
 
-  -------------------------------------------------------------------------------------------- --------------------------------------------------------
-  [Session \> Open Video...]{.kbd .menu}                                                       Add/replace a video to/on the timeline
-  [Window \> Video Monitor]{.kbd .menu}                                                        Open/close external video monitor window
-  [View \> Video Monitor \> ...]{.kbd .menu}                                                   Various settings of the video monitor
-  [Session \> Export \> Export to Video File...]{.kbd .menu}                                   Export session and multiplex with video-file
-  [Left]{.kbd .mouse}-drag the video in the timeline                                           Re-align video and move \'locked\' audio-regions along
-  Context-menu on the video-timeline: [Lock]{.kbd .optoff}                                     Prevent accidental drags
-  Audio region context menu: [*Name_Of_The_Region* \> Position \> Lock to video]{.kbd .menu}   Mark audio region(s) to be moved along with the video.
-  -------------------------------------------------------------------------------------------- --------------------------------------------------------
+|  |  |
+|----|----|
+| [Session \> Open Video...]{.kbd .menu} | Add/replace a video to/on the timeline |
+| [Window \> Video Monitor]{.kbd .menu} | Open/close external video monitor window |
+| [View \> Video Monitor \> ...]{.kbd .menu} | Various settings of the video monitor |
+| [Session \> Export \> Export to Video File...]{.kbd .menu} | Export session and multiplex with video-file |
+| [Left]{.kbd .mouse}-drag the video in the timeline | Re-align video and move \'locked\' audio-regions along |
+| Context-menu on the video-timeline: [Lock]{.kbd .optoff} | Prevent accidental drags |
+| Audio region context menu: [*Name_Of_The_Region* \> Position \> Lock to video]{.kbd .menu} | Mark audio region(s) to be moved along with the video. |
 
 ## Adding a video
 
@@ -70,11 +70,11 @@ dialog</figcaption>
 This step analyzes the video file in more detail and offers import
 options:
 
-  ---------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [Import/Transcode Video to Session]{.kbd .menu}                                    This is the default. The video will be imported in a suitable video format/codec for the timeline and video monitor and saved inside the session folder. A location other than the session folder can also be chosen (external disk, or network storage of the video server on a different machine) by using the [Output File:]{.kbd .menu} field.
-  [Reference from Current Location (Previously Transcoded Files Only)]{.kbd .menu}   Only useful for opening files that were previously encoded (are already in a good format/codec for Ardour). Should be used with care.
-  [Do not Import Video (Audio Import Only)]{.kbd .menu}                              Useful for extracting audio only.
-  ---------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| [Import/Transcode Video to Session]{.kbd .menu} | This is the default. The video will be imported in a suitable video format/codec for the timeline and video monitor and saved inside the session folder. A location other than the session folder can also be chosen (external disk, or network storage of the video server on a different machine) by using the [Output File:]{.kbd .menu} field. |
+| [Reference from Current Location (Previously Transcoded Files Only)]{.kbd .menu} | Only useful for opening files that were previously encoded (are already in a good format/codec for Ardour). Should be used with care. |
+| [Do not Import Video (Audio Import Only)]{.kbd .menu} | Useful for extracting audio only. |
 
 By default the video is imported using the original width/height. If it
 is a large video (e.g. Full HD), it makes sense to scale it down to

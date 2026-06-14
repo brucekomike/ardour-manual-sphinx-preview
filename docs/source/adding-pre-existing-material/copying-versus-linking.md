@@ -29,10 +29,10 @@ session. A backup of the session directory will miss linked files.
 The [Copy file to session]{.kbd .option} option in the Import dialog
 window allows to choose to copy or link files into the session:
 
-  -------------------------------------- ---------------------------------------------------------------------
-  [Copy file to session]{.kbd .option}   This file will be imported in the audio/MIDI folder of the session.
-  [Copy file to session]{.kbd .optoff}   This file won\'t be copied.
-  -------------------------------------- ---------------------------------------------------------------------
+|  |  |
+|----|----|
+| [Copy file to session]{.kbd .option} | This file will be imported in the audio/MIDI folder of the session. |
+| [Copy file to session]{.kbd .optoff} | This file won\'t be copied. |
 
 There is a global preference [Edit \> Preferences \> General \> Session
 \> Always copy imported files]{.kbd .menu}. If it is enabled, linking a

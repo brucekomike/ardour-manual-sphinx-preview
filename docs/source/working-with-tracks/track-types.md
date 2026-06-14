@@ -16,6 +16,7 @@ audio data.
 Nevertheless, when adding tracks to a session, its content is typically
 known, and Ardour offers three choices:
 
+```{eval-rst}
 +-----------------------------------+-------------------------------------------+
 | Audio                             | An [Audio Track]{.dfn} is created with a  |
 |                                   | user-specified number of inputs. The      |
@@ -92,3 +93,4 @@ known, and Ardour offers three choices:
 |                                   | them](@@control-masters-mixer-strips) to  |
 |                                   | one or more tracks or busses.             |
 +-----------------------------------+-------------------------------------------+
+```

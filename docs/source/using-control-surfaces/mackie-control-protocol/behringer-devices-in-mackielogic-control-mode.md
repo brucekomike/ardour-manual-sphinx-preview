@@ -98,6 +98,7 @@ emulate a standard mixer layout where controls for each track/bus are
 arranged vertically. The order of the faders is either controlled by the
 order of the tracks in the mixer or can be set manually by the user.
 
+```{eval-rst}
 +-----------------------------------+-----------------------------------+
 | Encoders                          | Mixer Pans. The red LEDs show the |
 |                                   | amount of pan left or right       |
@@ -168,6 +169,7 @@ order of the tracks in the mixer or can be set manually by the user.
 |                                   | - The lower right button controls |
 |                                   |   [Play]{.dfn}                    |
 +-----------------------------------+-----------------------------------+
+```
 
 ### Send Mode
 
@@ -183,15 +185,15 @@ selected channel. One interesting option is to flip the controls from
 the encoders to the faders by pressing the [shift 1]{.kbd .button}
 button and the [global view]{.kbd .button} button at the same time.
 
-  ----------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Encoders                In send mode, the encoders control sends from left to right instead of mixer pans. If there are less than 8 sends the behavior of the encoder will be to continue controlling the mixer pan. Visually it is indicated by the change in the LED from originating at the 12 o\'clock position to originating at the 7 o\'clock position. If [FLIP]{.kbd .button} is pressed the encoder will control the mixer gain for the selected track/bus.
-  First row of buttons    No Change
-  Second row of buttons   No Change.
-  Faders                  No change unless [FLIP]{.kbd .button}is pressed then it controls the send for the selected track/bus.
-  Shift Group             No Change
-  Select Group            No Change
-  Transport Group         No Change
-  ----------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Encoders | In send mode, the encoders control sends from left to right instead of mixer pans. If there are less than 8 sends the behavior of the encoder will be to continue controlling the mixer pan. Visually it is indicated by the change in the LED from originating at the 12 o\'clock position to originating at the 7 o\'clock position. If [FLIP]{.kbd .button} is pressed the encoder will control the mixer gain for the selected track/bus. |
+| First row of buttons | No Change |
+| Second row of buttons | No Change. |
+| Faders | No change unless [FLIP]{.kbd .button}is pressed then it controls the send for the selected track/bus. |
+| Shift Group | No Change |
+| Select Group | No Change |
+| Transport Group | No Change |
 
 ### Mixer Pan While Holding [Shift 1]{.kbd .button}
 
@@ -206,6 +208,7 @@ class="button">Shift 1</kbd></figcaption>
 The operations of various buttons change while holding down the [Shift
 1]{.kbd .button} button:
 
+```{eval-rst}
 +-----------------------------------+-----------------------------------+
 | Encoders                          | No Change                         |
 +-----------------------------------+-----------------------------------+
@@ -242,6 +245,7 @@ The operations of various buttons change while holding down the [Shift
 |                                   | - The lower right toggles [Global |
 |                                   |   Record]{.dfn}.                  |
 +-----------------------------------+-----------------------------------+
+```
 
 ### Mixer Pan While Holding [Shift 2]{.kbd .button}
 
@@ -256,16 +260,16 @@ class="button">Shift 2</kbd></figcaption>
 The operations of various buttons change while holding down the [Shift
 2]{.kbd .button} button:
 
-  ----------------------- -------------------------------------------------------------------------------
-  Encoders                No Change
-  First row of buttons    FIX ME
-  Second row of buttons   These now control setting up different [Views]{.dfn}. See below for more info
-  Faders                  No Change
-  Shift Group             No change
-  Mode Group              No Change
-  Select Group            Left button controls [Undo]{.dfn}(FIXME: NEEDS VERIFICATION)
-  Transport Group         FIX ME
-  ----------------------- -------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Encoders | No Change |
+| First row of buttons | FIX ME |
+| Second row of buttons | These now control setting up different [Views]{.dfn}. See below for more info |
+| Faders | No Change |
+| Shift Group | No change |
+| Mode Group | No Change |
+| Select Group | Left button controls [Undo]{.dfn}(FIXME: NEEDS VERIFICATION) |
+| Transport Group | FIX ME |
 
 ### Views
 

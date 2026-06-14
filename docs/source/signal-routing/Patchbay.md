@@ -22,15 +22,15 @@ left to right or bottom.
 Both sources and destinations are divided up into groups, with each
 group being given a tab:
 
-  ------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Hardware      These are ports which are connected to a physical piece of hardware (a sound card or MIDI interface).
-  Ardour Misc   These are other ports that do not fit into the previous two categories; for example, the ports on which the metronome click is output, and MIDI ports for things like control surfaces and timecode.
-  I/O Pre       All ports of I/O Pre-Process Plugins.
-  I/O Post      All ports of I/O Post-Process Plugins.
-  Tracks        All ports belonging to tracks.
-  Busses        All ports belonging to busses.
-  Other         If the Jack backend is being used and if there are other JACK clients running, their ports will be found here. If there are no such ports, the tab will not exist (on one or both axes of the grid).
-  ------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Hardware | These are ports which are connected to a physical piece of hardware (a sound card or MIDI interface). |
+| Ardour Misc | These are other ports that do not fit into the previous two categories; for example, the ports on which the metronome click is output, and MIDI ports for things like control surfaces and timecode. |
+| I/O Pre | All ports of I/O Pre-Process Plugins. |
+| I/O Post | All ports of I/O Post-Process Plugins. |
+| Tracks | All ports belonging to tracks. |
+| Busses | All ports belonging to busses. |
+| Other | If the Jack backend is being used and if there are other JACK clients running, their ports will be found here. If there are no such ports, the tab will not exist (on one or both axes of the grid). |
 
 The main part of the patchbay is a [matrix grid]{.dfn}. Within this
 grid, green dots represent connections, and any of the squares can be
@@ -70,66 +70,72 @@ connection to it.
 [right]{.kbd .mouse}-clicking on a port name in the connection manager
 opens a context menu which provides a few handy options:
 
-  ----------------------------------- -----------------------------------
-  [Add audio port]{.kbd .menu}\       These options add audio or MIDI
-  and\                                ports to the clicked source, if
-  [Add MIDI port]{.kbd .menu}         this is possible. In this way, for
-                                      example, tracks and busses can be
-                                      extended to have more inputs or
-                                      outputs.
-
-  [Remove *port_name*]{.kbd .menu}    Removes the given port, if
-                                      possible. [Right]{.kbd .mouse
-                                      .mod3}-clicking a port will do the
-                                      same.
-
-  [Disconnect all from                Disconnects everything from the
-  *port_name*]{.kbd .menu}            given port.
-
-  [Rescan]{.kbd .menu}                If Ardour is using the JACK
-                                      backend, Ardour will try to keep
-                                      abreast of any changes to the JACK
-                                      ports on the system, and reflect
-                                      them in any connection managers
-                                      which are open. If for some reason
-                                      this fails, this can be used to
-                                      re-scan the list of ports and
-                                      update the manager.
-
-  [Show individual ports]{.kbd .menu} If a session has lots of
-                                      multi-channel tracks or busses, it
-                                      may be an unnecessary detail that
-                                      left has to be connected to left
-                                      and right to right every time a
-                                      connection is made. This obviously
-                                      gets worse with higher channel
-                                      counts (such as for 5.1 or
-                                      Ambisonics). To make life easier
-                                      with such sessions, Show individual
-                                      ports can be unticked. After that,
-                                      the channels of tracks and busses
-                                      will be hidden, and any green dots
-                                      added in the connection manager
-                                      will automatically connect each
-                                      channel of the source to the
-                                      corresponding channel of the
-                                      destination (left to left, right to
-                                      right and so on). In this mode, a
-                                      half-circle in the connection grid
-                                      indicates that some (but not all)
-                                      of the source\'s ports are
-                                      connected to the destination.
-
-  [Flip]{.kbd .menu}                  This will flip the visible ports on
-                                      the vertical axis with those on the
-                                      horizontal. If, for example, the
-                                      top of the connection manager is
-                                      showing [Ardour Busses]{.kbd .menu}
-                                      and the right is showing
-                                      [Hardware]{.kbd .menu}, flip will
-                                      swap the view to the opposite.
-                                      Flipping can also be done by
-                                      pressing [f]{.kbd}. Note that if
-                                      there are no matching tabs on both
-                                      axes, flipping will be impossible.
-  ----------------------------------- -----------------------------------
+```{eval-rst}
++-----------------------------------+-----------------------------------+
+| [Add audio port]{.kbd .menu}\     | These options add audio or MIDI   |
+| and\                              | ports to the clicked source, if   |
+| [Add MIDI port]{.kbd .menu}       | this is possible. In this way,    |
+|                                   | for example, tracks and busses    |
+|                                   | can be extended to have more      |
+|                                   | inputs or outputs.                |
++-----------------------------------+-----------------------------------+
+| [Remove *port_name*]{.kbd .menu}  | Removes the given port, if        |
+|                                   | possible. [Right]{.kbd .mouse     |
+|                                   | .mod3}-clicking a port will do    |
+|                                   | the same.                         |
++-----------------------------------+-----------------------------------+
+| [Disconnect all from              | Disconnects everything from the   |
+| *port_name*]{.kbd .menu}          | given port.                       |
++-----------------------------------+-----------------------------------+
+| [Rescan]{.kbd .menu}              | If Ardour is using the JACK       |
+|                                   | backend, Ardour will try to keep  |
+|                                   | abreast of any changes to the     |
+|                                   | JACK ports on the system, and     |
+|                                   | reflect them in any connection    |
+|                                   | managers which are open. If for   |
+|                                   | some reason this fails, this can  |
+|                                   | be used to re-scan the list of    |
+|                                   | ports and update the manager.     |
++-----------------------------------+-----------------------------------+
+| [Show individual ports]{.kbd      | If a session has lots of          |
+| .menu}                            | multi-channel tracks or busses,   |
+|                                   | it may be an unnecessary detail   |
+|                                   | that left has to be connected to  |
+|                                   | left and right to right every     |
+|                                   | time a connection is made. This   |
+|                                   | obviously gets worse with higher  |
+|                                   | channel counts (such as for 5.1   |
+|                                   | or Ambisonics). To make life      |
+|                                   | easier with such sessions, Show   |
+|                                   | individual ports can be unticked. |
+|                                   | After that, the channels of       |
+|                                   | tracks and busses will be hidden, |
+|                                   | and any green dots added in the   |
+|                                   | connection manager will           |
+|                                   | automatically connect each        |
+|                                   | channel of the source to the      |
+|                                   | corresponding channel of the      |
+|                                   | destination (left to left, right  |
+|                                   | to right and so on). In this      |
+|                                   | mode, a half-circle in the        |
+|                                   | connection grid indicates that    |
+|                                   | some (but not all) of the         |
+|                                   | source\'s ports are connected to  |
+|                                   | the destination.                  |
++-----------------------------------+-----------------------------------+
+| [Flip]{.kbd .menu}                | This will flip the visible ports  |
+|                                   | on the vertical axis with those   |
+|                                   | on the horizontal. If, for        |
+|                                   | example, the top of the           |
+|                                   | connection manager is showing     |
+|                                   | [Ardour Busses]{.kbd .menu} and   |
+|                                   | the right is showing              |
+|                                   | [Hardware]{.kbd .menu}, flip will |
+|                                   | swap the view to the opposite.    |
+|                                   | Flipping can also be done by      |
+|                                   | pressing [f]{.kbd}. Note that if  |
+|                                   | there are no matching tabs on     |
+|                                   | both axes, flipping will be       |
+|                                   | impossible.                       |
++-----------------------------------+-----------------------------------+
+```

@@ -66,11 +66,11 @@ The three buttons are:
 
 The [Status]{.dfn} buttons show the current session state:
 
-  ---------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Solo       Blinks when one or more tracks are being soloed, see [Muting and Soloing](@@muting-and-soloing). Clicking this button disables any active explicit and implicit solo on all tracks and busses.
-  Audition   Blinks when some audio is auditioned, e.g. by using the import dialog, or using the [Audition]{.kbd .menu} context menu in the [Regions List](@@the-region-list). Clicking this button stops the auditioning.
-  Feedback   Blinks when Ardour detects a [feedback loop]{.dfn}, which happens when the output of an audio signal chain is plugged back to its input. This is probably not wanted and can be dangerous for the hardware and the listener.
-  ---------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Solo | Blinks when one or more tracks are being soloed, see [Muting and Soloing](@@muting-and-soloing). Clicking this button disables any active explicit and implicit solo on all tracks and busses. |
+| Audition | Blinks when some audio is auditioned, e.g. by using the import dialog, or using the [Audition]{.kbd .menu} context menu in the [Regions List](@@the-region-list). Clicking this button stops the auditioning. |
+| Feedback | Blinks when Ardour detects a [feedback loop]{.dfn}, which happens when the output of an audio signal chain is plugged back to its input. This is probably not wanted and can be dangerous for the hardware and the listener. |
 
 ## Script/Shortcut buttons {#tb_script_buttons}
 

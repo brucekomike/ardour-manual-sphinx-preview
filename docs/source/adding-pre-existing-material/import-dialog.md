@@ -50,11 +50,11 @@ Instrument]{.kbd .menu} dropdown list.
 Through the [Add files...]{.kbd .menu} option, imported files can be
 inserted in the session:
 
-  -------------------- --------------------------------------------------------------------------------------------------------------
-  as new tracks        automatically creates new tracks and import the files in it
-  to region list       adds the files to the [region list](@@the-region-list), from where then can be manually dragged into a track
-  as new tape tracks   adds the files as [Tape tracks.](@@track-types)
-  -------------------- --------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| as new tracks | automatically creates new tracks and import the files in it |
+| to region list | adds the files to the [region list](@@the-region-list), from where then can be manually dragged into a track |
+| as new tape tracks | adds the files as [Tape tracks.](@@track-types) |
 
 The [Insert at]{.kbd .menu} option chooses where in time the file will
 be imported, amongst:
@@ -67,11 +67,11 @@ be imported, amongst:
 The Channel [Mapping]{.kbd .menu} option is only available for
 multi-channel files (i.e. all but mono ones). It is either
 
-  ------------------------------ -----------------------------------------------------------------------------------------------------
-  one track/region per file      Creates a multi channel track for each imported file
-  one track/region per channel   Creates only mono channels, as many as there are channels in the imported files
-  sequence files                 If multiple files are imported, they can be sequenced into a single track in the order of selection
-  ------------------------------ -----------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| one track/region per file | Creates a multi channel track for each imported file |
+| one track/region per channel | Creates only mono channels, as many as there are channels in the imported files |
+| sequence files | If multiple files are imported, they can be sequenced into a single track in the order of selection |
 
 The [Conversion quality]{.kbd .menu} drop-down controls the quality of
 the resampling process, if the sampling rate of the source file differs
@@ -80,11 +80,11 @@ from the session rate.
 There are three MIDI-specific options as well. First off, you can set a
 track naming scheme:
 
-  -------------------- ------------------------------------------------------------------------------------------------------------------
-  by track number      will automatically assign every track a name that consists of the imported file name and a track number
-  by track name        will automatically assign every track a name that consists of the imported track\'s name and number
-  by instrument name   will automatically assign every track a name that consists of the imported instrument\'s name and a track number
-  -------------------- ------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| by track number | will automatically assign every track a name that consists of the imported file name and a track number |
+| by track name | will automatically assign every track a name that consists of the imported track\'s name and number |
+| by instrument name | will automatically assign every track a name that consists of the imported instrument\'s name and a track number |
 
 You can also optionally import a tempo map from a MIDI file. The [Use
 MIDI Tempo Map]{.kbd .menu} option appears when a MIDI file is selected

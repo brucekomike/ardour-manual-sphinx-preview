@@ -39,10 +39,10 @@ Ardour 5.0 to 5.12 can use two surfaces as shown in [Example
 
 There are only two OSC commands needed to set up a `Link Set`:
 
-  --------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [/link/set *linkset* *linkid*]{.kbd .osc}           Where *linkset* is the Link Set this surface will be added to and *linkid* is the Link Id of this surface.
-  [/link/bank_size *linkset* *banksize*]{.kbd .osc}   Where *linkset* is the Link Set this surface will be added to and *banksize* is the target bank size for this Link Set. This Link Set will not operate unless the total strip numbers is *banksize*.
-  --------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| [/link/set *linkset* *linkid*]{.kbd .osc} | Where *linkset* is the Link Set this surface will be added to and *linkid* is the Link Id of this surface. |
+| [/link/bank_size *linkset* *banksize*]{.kbd .osc} | Where *linkset* is the Link Set this surface will be added to and *banksize* is the target bank size for this Link Set. This Link Set will not operate unless the total strip numbers is *banksize*. |
 
 It is also possible to send link set and ID values as part of a
 `/set_surface` command. [/set_surface *bank_size* *strip_types*

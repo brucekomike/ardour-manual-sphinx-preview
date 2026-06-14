@@ -146,16 +146,16 @@ will light up if an action has been assigned to a button.
 The following tables shows a condensed overview of the
 session-navigation modes:
 
-                                 [Prev]{.kbd} / [Next]{.kbd}           Encoder knob                          Encoder Press
-  ------------------------------ ------------------------------------- ------------------------------------- ------------------------------------
-  Channel                        Select prev/next mixer-strip          Scroll Editor up/down                 Bank to show selected strip on FP8
-  Master                         Bank visible strips on FP8 by 1       Adjust master/monitor level           Reset master/monitor to 0dB
-  Zoom                           Vertical zoom (editor track-height)   Horizontal timeline zoom (time)       Horizontal zoom to session
-  Scroll                         Bank visible strips on FP8 by 1       Scroll the timeline (move playhead)   Horizontal zoom to session
-  Section                        Nudge the selected region             Nudge the playhead                    \-
-  Bank                           Bank visible strips on FP8 by 8       Bank visible strips on FP8 by 1       Bank to show selected strip on FP8
-  Marker                         Move to prev/next marker              Scroll the timeline (move playhead)   Drop a new marker
-  Press and hold [Click]{.kbd}   (mode dependent)                      Adjust metronome Level                Reset metronome level to 0dBFS
+|  | [Prev]{.kbd} / [Next]{.kbd} | Encoder knob | Encoder Press |
+|----|----|----|----|
+| Channel | Select prev/next mixer-strip | Scroll Editor up/down | Bank to show selected strip on FP8 |
+| Master | Bank visible strips on FP8 by 1 | Adjust master/monitor level | Reset master/monitor to 0dB |
+| Zoom | Vertical zoom (editor track-height) | Horizontal timeline zoom (time) | Horizontal zoom to session |
+| Scroll | Bank visible strips on FP8 by 1 | Scroll the timeline (move playhead) | Horizontal zoom to session |
+| Section | Nudge the selected region | Nudge the playhead | \- |
+| Bank | Bank visible strips on FP8 by 8 | Bank visible strips on FP8 by 1 | Bank to show selected strip on FP8 |
+| Marker | Move to prev/next marker | Scroll the timeline (move playhead) | Drop a new marker |
+| Press and hold [Click]{.kbd} | (mode dependent) | Adjust metronome Level | Reset metronome level to 0dBFS |
 
 ### Shift Button {#shift-button .clear}
 

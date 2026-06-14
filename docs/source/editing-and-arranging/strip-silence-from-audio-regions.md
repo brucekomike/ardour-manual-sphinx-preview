@@ -11,12 +11,12 @@ The window, accessible either through the [Region \> Edit \> Strip
 Silence]{.kbd .menu} menu or [[right]{.kbd .mouse} click on a region \>
 *Name_Of_The_Region* \> Edit \> Strip Silence]{.kbd .menu}is made of:
 
-  ------------------------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [Threshold]{.dfn}        The audio level under which the audio is considered silent (in [dBFS]{.abbr title="Decibels relative to Full Scale"})
-  [Minimum length]{.dfn}   A minimum number of samples for Ardour to create a split. Under this number, the region won\'t be sliced
-  [Fade length]{.dfn}      Ardour adds fades, both in and out, to the trimmed regions, to the created region (so the sliced regions are longer by both the in and out fades duration, expressed in samples)
-  A progress bar           showing the time Ardour takes to compute the trimming based on the current parameters
-  ------------------------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| [Threshold]{.dfn} | The audio level under which the audio is considered silent (in [dBFS]{.abbr title="Decibels relative to Full Scale"}) |
+| [Minimum length]{.dfn} | A minimum number of samples for Ardour to create a split. Under this number, the region won\'t be sliced |
+| [Fade length]{.dfn} | Ardour adds fades, both in and out, to the trimmed regions, to the created region (so the sliced regions are longer by both the in and out fades duration, expressed in samples) |
+| A progress bar | showing the time Ardour takes to compute the trimming based on the current parameters |
 
 Changing any parameter in the window is reflected in the main editor:
 the silent segments are highlighted and the number and durations of the

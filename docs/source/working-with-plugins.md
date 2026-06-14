@@ -13,13 +13,13 @@ to get them.
 
 Ardour supports a variety of different plugin standards:
 
-  ------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [LADSPA]{.abbr title="Linux Audio Developers' Simple Plugin API"}   An early, simple, lightweight plugin [API]{.abbr title="Application
-                                                                            Programming Interface"}, audio effects only, plugins have no editors/GUI of their own (Ardour provides one, however).
-  [LV2]{.abbr title="LADSPA Version 2"}                               An extensible, full-featured plugin API, audio and [MIDI]{.abbr title="Musical Instrument Digital Interface"}, plugins can provide their own [GUI]{.abbr title="Graphical User Interface"}s but may use the one Ardour provides instead.
-  [AU]{.abbr title="Audio Unit"}                                      OS X only, full featured, audio and MIDI, plugins can provide their own GUI
-  [VST]{.abbr title="Virtual Studio Technology"}                      Plugins using Steinberg\'s VST2 and VST3 plugin standard.
-  ------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| [LADSPA]{.abbr title="Linux Audio Developers' Simple Plugin API"} | An early, simple, lightweight plugin [API]{.abbr title="Application
+      Programming Interface"}, audio effects only, plugins have no editors/GUI of their own (Ardour provides one, however). |
+| [LV2]{.abbr title="LADSPA Version 2"} | An extensible, full-featured plugin API, audio and [MIDI]{.abbr title="Musical Instrument Digital Interface"}, plugins can provide their own [GUI]{.abbr title="Graphical User Interface"}s but may use the one Ardour provides instead. |
+| [AU]{.abbr title="Audio Unit"} | OS X only, full featured, audio and MIDI, plugins can provide their own GUI |
+| [VST]{.abbr title="Virtual Studio Technology"} | Plugins using Steinberg\'s VST2 and VST3 plugin standard. |
 
 ## Adding/Removing/Copying Plugins
 

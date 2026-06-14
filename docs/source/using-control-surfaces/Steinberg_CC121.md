@@ -46,6 +46,7 @@ settings](/images/steinberg-cc121-settings.png){style="width:50%;"}
 
 Some additional behavior cannot be configured:
 
+```{eval-rst}
 +-----------------------------------+-----------------------------------+
 | Fader                             | Controls the fader of the         |
 |                                   | selected track or bus             |
@@ -137,3 +138,4 @@ Some additional behavior cannot be configured:
 |                                   | recording has started and the     |
 |                                   | button will be lit.               |
 +-----------------------------------+-----------------------------------+
+```

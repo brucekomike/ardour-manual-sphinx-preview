@@ -41,43 +41,43 @@ the keyboard, so that moving back and forth from the keyboard to the
 mouse is typically not necessary---even for complex data entry. The
 default key bindings are:
 
-  --------------------------- -------------------------------------------
-  [\`]{.kbd} (grave accent)   Set octave 0
-  [1]{.kbd} to [9]{.kbd}      Set octave 1 to 9
-  [0]{.kbd}                   Set octave 10
-  [f1]{.kbd}                  Set note length to whole
-  [f2]{.kbd}                  Set note length to half
-  [f3]{.kbd}                  Set note length to third
-  [f4]{.kbd} to [f8]{.kbd}    Set note length to quarter to sixtyfourth
-  [a]{.kbd}                   Insert C
-  [w]{.kbd}                   Insert C♯
-  [s]{.kbd}                   Insert D
-  [e]{.kbd}                   Insert D♯
-  [d]{.kbd}                   Insert E
-  [f]{.kbd}                   Insert F
-  [t]{.kbd}                   Insert F♯
-  [g]{.kbd}                   Insert G
-  [y]{.kbd}                   Insert G♯
-  [h]{.kbd}                   Insert A
-  [u]{.kbd}                   Insert A♯
-  [j]{.kbd}                   Insert B
-  [tab]{.kbd}                 Insert a one note length rest
-  [tab]{.kbd .mod1}           Insert a one grid unit rest
-  [backspace]{.kbd}           Moves the cursor back one note length
-  [z]{.kbd}                   Set note velocity 𝆏𝆏𝆏
-  [x]{.kbd}                   Set note velocity 𝆏𝆏
-  [c]{.kbd}                   Set note velocity 𝆏
-  [v]{.kbd}                   Set note velocity 𝆐𝆏
-  [b]{.kbd}                   Set note velocity 𝆐𝆑
-  [n]{.kbd}                   Set note velocity 𝆑
-  [m]{.kbd}                   Set note velocity 𝆑𝆑
-  [,]{.kbd} (comma)           Set note velocity 𝆑𝆑𝆑
-  [↑]{.kbd}                   Set next note velocity
-  [↓]{.kbd}                   Set prev note velocity
-  [↑]{.kbd .mod1}             Set next note length
-  [↓]{.kbd .mod1}             Set prev note length
-  [\']{.kbd}                  Toggle triplet
-  [.]{.kbd}                   Set single dotted
-  [.]{.kbd .mod1}             Clear dotted
-  [\|]{.kbd} (bar)            Toggle chord
-  --------------------------- -------------------------------------------
+|                           |                                           |
+|---------------------------|-------------------------------------------|
+| [\`]{.kbd} (grave accent) | Set octave 0                              |
+| [1]{.kbd} to [9]{.kbd}    | Set octave 1 to 9                         |
+| [0]{.kbd}                 | Set octave 10                             |
+| [f1]{.kbd}                | Set note length to whole                  |
+| [f2]{.kbd}                | Set note length to half                   |
+| [f3]{.kbd}                | Set note length to third                  |
+| [f4]{.kbd} to [f8]{.kbd}  | Set note length to quarter to sixtyfourth |
+| [a]{.kbd}                 | Insert C                                  |
+| [w]{.kbd}                 | Insert C♯                                 |
+| [s]{.kbd}                 | Insert D                                  |
+| [e]{.kbd}                 | Insert D♯                                 |
+| [d]{.kbd}                 | Insert E                                  |
+| [f]{.kbd}                 | Insert F                                  |
+| [t]{.kbd}                 | Insert F♯                                 |
+| [g]{.kbd}                 | Insert G                                  |
+| [y]{.kbd}                 | Insert G♯                                 |
+| [h]{.kbd}                 | Insert A                                  |
+| [u]{.kbd}                 | Insert A♯                                 |
+| [j]{.kbd}                 | Insert B                                  |
+| [tab]{.kbd}               | Insert a one note length rest             |
+| [tab]{.kbd .mod1}         | Insert a one grid unit rest               |
+| [backspace]{.kbd}         | Moves the cursor back one note length     |
+| [z]{.kbd}                 | Set note velocity 𝆏𝆏𝆏                     |
+| [x]{.kbd}                 | Set note velocity 𝆏𝆏                      |
+| [c]{.kbd}                 | Set note velocity 𝆏                       |
+| [v]{.kbd}                 | Set note velocity 𝆐𝆏                      |
+| [b]{.kbd}                 | Set note velocity 𝆐𝆑                      |
+| [n]{.kbd}                 | Set note velocity 𝆑                       |
+| [m]{.kbd}                 | Set note velocity 𝆑𝆑                      |
+| [,]{.kbd} (comma)         | Set note velocity 𝆑𝆑𝆑                     |
+| [↑]{.kbd}                 | Set next note velocity                    |
+| [↓]{.kbd}                 | Set prev note velocity                    |
+| [↑]{.kbd .mod1}           | Set next note length                      |
+| [↓]{.kbd .mod1}           | Set prev note length                      |
+| [\']{.kbd}                | Toggle triplet                            |
+| [.]{.kbd}                 | Set single dotted                         |
+| [.]{.kbd .mod1}           | Clear dotted                              |
+| [\|]{.kbd} (bar)          | Toggle chord                              |

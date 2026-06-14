@@ -52,18 +52,18 @@ Clicking the [Aux]{.kbd .menu} button makes every track that sends a
 signal to this bus through [Aux sends](@@aux-sends) blink in turquoise.
 Right clicking this button brings up a menu:
 
-  ----------------------------------------------- ------------------------------------------------------------------------------------------------------------
-  Assign all tracks (prefader)                    Creates an Aux Send in every track, to this bus. The send is placed just before the fader
-  Assign all tracks and busses (prefader)         Creates an Aux Send in every track and every bus, to this bus. The send is placed just before the fader
-  Assign all tracks (postfader)                   Same as above, but the send is placed just after the fader
-  Assign all tracks and busses (postfader)        Same as above, with tracks and busses
-  Assign selected tracks (prefader)               Same as for all tracks, but only applies to the selected tracks
-  Assign selected tracks and busses (prefader)    Same as for all tracks and busses, but only applies to the selected tracks and busses
-  Assign selected tracks (postfader)              Same as above, but the send is placed just after the fader
-  Assign selected tracks and busses (postfader)   Same as above, with tracks and busses
-  Set sends gain to -inf                          For all the sends to this bus, put the send fader to −∞ so no signal is sent
-  Set sends gain to 0dB                           For all the sends to this bus, put the send fader at the default position, 0dB (100% of th signal is sent)
-  ----------------------------------------------- ------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Assign all tracks (prefader) | Creates an Aux Send in every track, to this bus. The send is placed just before the fader |
+| Assign all tracks and busses (prefader) | Creates an Aux Send in every track and every bus, to this bus. The send is placed just before the fader |
+| Assign all tracks (postfader) | Same as above, but the send is placed just after the fader |
+| Assign all tracks and busses (postfader) | Same as above, with tracks and busses |
+| Assign selected tracks (prefader) | Same as for all tracks, but only applies to the selected tracks |
+| Assign selected tracks and busses (prefader) | Same as for all tracks and busses, but only applies to the selected tracks and busses |
+| Assign selected tracks (postfader) | Same as above, but the send is placed just after the fader |
+| Assign selected tracks and busses (postfader) | Same as above, with tracks and busses |
+| Set sends gain to -inf | For all the sends to this bus, put the send fader to −∞ so no signal is sent |
+| Set sends gain to 0dB | For all the sends to this bus, put the send fader at the default position, 0dB (100% of th signal is sent) |
 
 ## Connecting a track to a bus
 

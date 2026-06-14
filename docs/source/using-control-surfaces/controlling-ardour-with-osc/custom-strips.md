@@ -19,12 +19,12 @@ of custom strips.
 
 The commands below control the use of a custom strip set.
 
-  ------------------------------------------ ---------------------------------------------------------------------------------------------------------
-  [/strip/listen *ssid* *\...*]{.kbd .osc}   where *ssid* is an integer or list of integers representing tracks to add to the custom track list
-  [/strip/ignore *ssid* *\...*]{.kbd .osc}   where *ssid* is an integer or list of integers representing tracks to remove from the custom track list
-  [/strip/custom/mode *mode*]{.kbd .osc}     where *mode* is an integer representing the desired mode of custom strips.
-  [/strip/custom/clear ]{.kbd .osc}          disables custom strips and clears the previously set custom strip list
-  ------------------------------------------ ---------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| [/strip/listen *ssid* *\...*]{.kbd .osc} | where *ssid* is an integer or list of integers representing tracks to add to the custom track list |
+| [/strip/ignore *ssid* *\...*]{.kbd .osc} | where *ssid* is an integer or list of integers representing tracks to remove from the custom track list |
+| [/strip/custom/mode *mode*]{.kbd .osc} | where *mode* is an integer representing the desired mode of custom strips. |
+| [/strip/custom/clear ]{.kbd .osc} | disables custom strips and clears the previously set custom strip list |
 
 ## Setting up a custom strip set
 

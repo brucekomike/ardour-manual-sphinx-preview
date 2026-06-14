@@ -44,17 +44,17 @@ The right-click menu mostly copies that of a regular pair of range
 markers. The following options are available in addition to the ones
 mentioned above.
 
-  --------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Play Range                  Starts playback at the left marker in the pair and stops at the right marker.
-  Locate to Marker            Moves the playhead to the selected marker.
-  Play from Marker            Moves the playhead to the selected marker and starts playback.
-  Loop Range                  Creates a loop range off the selected range markers pair and starts playback.
-  Set Marker from Playhead    Changes the position of the selected marker to that of the playhead.
-  Zoom to Range               Changes the zoom so that the area defined by the range markers would be maximized yet visible entirely within Ardour\'s window.
-  Loudness Assistant...       Launches the Loudness Assistant to analyze the selection defined by the selected pair of range markers.
-  Export Range...             Exports the selection defined by the selected pair of range markers.
-  Promote to Time Origin      This makes the position of the chosen range marker the origin time. This is mostly useful when the *Display delta to origin marker* clock mode is enabled to display the difference between current playhead position and the origin time. Absolute time stays unaffected.
-  Separate Regions in Range   Cuts all regions crossing the positions of the range markers.
-  Select All in Range         Select entire regions that cross the borders of the range markers.
-  Select Range                Create a selection from the range markers in all selected tracks and busses.
-  --------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Play Range | Starts playback at the left marker in the pair and stops at the right marker. |
+| Locate to Marker | Moves the playhead to the selected marker. |
+| Play from Marker | Moves the playhead to the selected marker and starts playback. |
+| Loop Range | Creates a loop range off the selected range markers pair and starts playback. |
+| Set Marker from Playhead | Changes the position of the selected marker to that of the playhead. |
+| Zoom to Range | Changes the zoom so that the area defined by the range markers would be maximized yet visible entirely within Ardour\'s window. |
+| Loudness Assistant... | Launches the Loudness Assistant to analyze the selection defined by the selected pair of range markers. |
+| Export Range... | Exports the selection defined by the selected pair of range markers. |
+| Promote to Time Origin | This makes the position of the chosen range marker the origin time. This is mostly useful when the *Display delta to origin marker* clock mode is enabled to display the difference between current playhead position and the origin time. Absolute time stays unaffected. |
+| Separate Regions in Range | Cuts all regions crossing the positions of the range markers. |
+| Select All in Range | Select entire regions that cross the borders of the range markers. |
+| Select Range | Create a selection from the range markers in all selected tracks and busses. |

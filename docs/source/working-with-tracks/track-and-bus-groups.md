@@ -124,17 +124,17 @@ status of all channels in the same group.
 Context-clicking on the group tab offers a further menu of group-related
 actions.
 
-  -------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------
-  Create a New Group         create a new group
-  Create New Group from...   create a new group and automatically add ...
-  Selected                   all currently selected tracks and busses
-  Rec-enabled                all currently record-enabled tracks
-  Soloed                     all currently soloed tracks and busses
-  Collect Group              moves all the member tracks so that they are together in the editor window
-  Remove Group               removes the group (and only the group, not its members).
-  Add New Subgroup Bus       creates a bus (giving it the name of the group) and connects the output of each member to the new bus.
-  Add New Aux Bus            adds a bus and gives each member a send to that bus. There are two options for this, specifying whether the sends should be placed pre- or post-fader.
-  Fit to Window              will zoom the member tracks so that they fill the editor window.
-  Enable All Groups          makes all group active, including any hidden groups.
-  Disable All Groups         makes all groups inactive, including any hidden groups.
-  -------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Create a New Group | create a new group |
+| Create New Group from... | create a new group and automatically add ... |
+| Selected | all currently selected tracks and busses |
+| Rec-enabled | all currently record-enabled tracks |
+| Soloed | all currently soloed tracks and busses |
+| Collect Group | moves all the member tracks so that they are together in the editor window |
+| Remove Group | removes the group (and only the group, not its members). |
+| Add New Subgroup Bus | creates a bus (giving it the name of the group) and connects the output of each member to the new bus. |
+| Add New Aux Bus | adds a bus and gives each member a send to that bus. There are two options for this, specifying whether the sends should be placed pre- or post-fader. |
+| Fit to Window | will zoom the member tracks so that they fill the editor window. |
+| Enable All Groups | makes all group active, including any hidden groups. |
+| Disable All Groups | makes all groups inactive, including any hidden groups. |

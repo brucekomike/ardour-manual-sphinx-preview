@@ -2,6 +2,7 @@
 The [View]{.dfn} menu sets how the session is seen, and what\'s visible
 or not.
 
+```{eval-rst}
 +--------------------------------+------------------------------------------------------+
 | □ Maximise Editor Space        | Puts the Editor window in full screen mode           |
 +--------------------------------+------------------------------------------------------+
@@ -221,3 +222,4 @@ or not.
 | □ Mixer: Show Foldback Strip   | In the Mixer view, shows the Foldback Strip if there |
 |                                | are any                                              |
 +--------------------------------+------------------------------------------------------+
+```

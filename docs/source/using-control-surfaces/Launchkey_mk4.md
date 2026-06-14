@@ -48,12 +48,12 @@ Launchkey mk4 controllers come with 4 predefined encoder modes and 4
 custom modes. To switch to a particular mode, press and hold the
 [Shift]{.kbd .button} button and then press the corresponding pad.
 
-  ----------- -----------------------------------------------------------------------------------------------------
-  Plugin      Encoders control plugin parameters.
-  Mixer       Encoders can be used for pan, the first 2 sends, and additional gain controls; pads do solo & mute.
-  Sends       Encoders control 8 sends of the selected track.
-  Transport   Encoders control playhead, loop points, can be used to jump between markers, visual zoom.
-  ----------- -----------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Plugin | Encoders control plugin parameters. |
+| Mixer | Encoders can be used for pan, the first 2 sends, and additional gain controls; pads do solo & mute. |
+| Sends | Encoders control 8 sends of the selected track. |
+| Transport | Encoders control playhead, loop points, can be used to jump between markers, visual zoom. |
 
 ## Pad modes
 

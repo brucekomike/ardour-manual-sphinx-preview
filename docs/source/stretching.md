@@ -37,17 +37,18 @@ the [ left]{.kbd .mouse} mouse button is released:
 
 The Time Stretch Audio window is made of:
 
-  ---------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [Duration]{.dfn}                   The target duration of the region, expressed using the primary transport clock\'s mode
-  [Percent]{.dfn}                    The target duration of the region, expressed as a percentage of the region\'s original length. Can be either higher than 100% (to expand the region) or lower (to shrink it)
-  [Contents]{.dfn}                   The type of audio the region is made of. Ardour will fine-tune its algorithm based on this content, see below
-  [Minimize time distortion]{.dfn}   Tries to reduce the smearing of the audio created by the phase vocoding process
-  a [Progress]{.dfn} bar             showing the operation in progress.
-  ---------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| [Duration]{.dfn} | The target duration of the region, expressed using the primary transport clock\'s mode |
+| [Percent]{.dfn} | The target duration of the region, expressed as a percentage of the region\'s original length. Can be either higher than 100% (to expand the region) or lower (to shrink it) |
+| [Contents]{.dfn} | The type of audio the region is made of. Ardour will fine-tune its algorithm based on this content, see below |
+| [Minimize time distortion]{.dfn} | Tries to reduce the smearing of the audio created by the phase vocoding process |
+| a [Progress]{.dfn} bar | showing the operation in progress. |
 
 The *Contents* should be selected to best fit the actual content of the
 region, amongst:
 
+```{eval-rst}
 +---------------------+-------------------+-------------+-------------+------------+------------+
 | Content             | Disable phase     | Band-limit  | Disable     | Use longer | Use        |
 |                     | resynchronisation | phase       | phase       | processing | shorter    |
@@ -79,6 +80,7 @@ region, amongst:
 | preserving          |                                                                         |
 | pitch]{.dfn}        |                                                                         |
 +---------------------+-------------------------------------------------------------------------+
+```
 
 While the table above details *how* the different kinds of audio
 material alter the fine-tuning of the DSP, from an user point of view,

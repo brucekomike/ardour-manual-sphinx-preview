@@ -2,6 +2,7 @@
 The [Transport]{.dfn} menu handles how Ardour handles the playback and
 playhead.
 
+```{eval-rst}
 +----------------------------------+-----------------------------------------------------+
 | Start/Stop                       | Starts or stops the playhead, and recording if it   |
 |                                  | is armed                                            |
@@ -225,3 +226,4 @@ playhead.
 | Panic (Send MIDI all-notes-off)  | Immediately stops all MIDI playback (useful e.g.    |
 |                                  | when a MIDI bug in encountered)                     |
 +----------------------------------+-----------------------------------------------------+
+```

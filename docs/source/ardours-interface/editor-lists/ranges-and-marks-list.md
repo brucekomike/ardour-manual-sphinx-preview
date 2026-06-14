@@ -39,8 +39,8 @@ At the bottom of the list are buttons to add new markers or ranges.
 
 ## List sections
 
-  ------------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Loop/Punch Ranges                    This list shows the current [loop]{.dfn} and [punch]{.dfn} range settings. Since these are built-in ranges, they cannot be renamed or removed.
-  Markers (Including CD Index)         This section lists the session\'s [markers]{.dfn}. By ticking [CD]{.kbd .option}, Ardour is instructed to create a [CD track index]{.dfn} from this marker, which will be included in the TOC or CUE file when exporting.
-  Ranges (Including CD Track Ranges)   This is the list of [ranges]{.dfn} (including [CD track ranges]{.dfn}). Ticking [CD]{.kbd .option} will convert the range to a [CD track]{.dfn}, which will again be included in exported TOC or CUE files. This is relevant for Disk-At-Once recordings that may contain audio data between tracks.
-  ------------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Loop/Punch Ranges | This list shows the current [loop]{.dfn} and [punch]{.dfn} range settings. Since these are built-in ranges, they cannot be renamed or removed. |
+| Markers (Including CD Index) | This section lists the session\'s [markers]{.dfn}. By ticking [CD]{.kbd .option}, Ardour is instructed to create a [CD track index]{.dfn} from this marker, which will be included in the TOC or CUE file when exporting. |
+| Ranges (Including CD Track Ranges) | This is the list of [ranges]{.dfn} (including [CD track ranges]{.dfn}). Ticking [CD]{.kbd .option} will convert the range to a [CD track]{.dfn}, which will again be included in exported TOC or CUE files. This is relevant for Disk-At-Once recordings that may contain audio data between tracks. |

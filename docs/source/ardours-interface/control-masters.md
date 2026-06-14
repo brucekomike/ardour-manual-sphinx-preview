@@ -35,12 +35,12 @@ A VCA strip is made of (from top to bottom in the screenshot):
 
 Right-clicking the name button shows a context menus comprised of:
 
-  ----------------- ----------------------------------------------------------------------------------------
-  Rename            Renames the VCA
-  Color...          Changes the color of the VCA button in the tracks connected to this one
-  Drop All Slaves   Deletes all connections to this VCA, i.e. no tracks are controlled by this VCA anymore
-  Remove            Deletes this VCA
-  ----------------- ----------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Rename | Renames the VCA |
+| Color... | Changes the color of the VCA button in the tracks connected to this one |
+| Drop All Slaves | Deletes all connections to this VCA, i.e. no tracks are controlled by this VCA anymore |
+| Remove | Deletes this VCA |
 
 ## Connecting to a VCA strip
 

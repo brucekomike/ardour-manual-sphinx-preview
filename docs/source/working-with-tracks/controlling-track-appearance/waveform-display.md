@@ -5,6 +5,7 @@ highest zoom levels) is configurable via the [Edit \> Preferences \>
 Appearance \> Editor]{.kbd .menu} dialog, to support different use cases
 and user preferences. The following options are available:
 
+```{eval-rst}
 +----------------------+----------------------+----------------------+
 | Show waveforms in    | By default, Ardour draws waveforms within   |
 | regions              | audio regions. Disable this option to hide  |
@@ -52,3 +53,4 @@ and user preferences. The following options are available:
 |                      |                      | *above* the line     |
 |                      |                      | only.                |
 +----------------------+----------------------+----------------------+
+```

@@ -13,14 +13,14 @@ instances of the same note overlap. Which one to use is a per-session
 property and can be modified from [Session \> Properties \> Misc \> MIDI
 Options]{.kbd .menu}.
 
-  --------------------------------------------------- ------------------------------------------------------------------------------------------------------------
-  never allow them                                    Edits that would create note overlaps are not allowed
-  don\'t do anything in particular                    Ardour leaves overlapping notes alone---the behaviour of a MIDI receiver (plugin or hardware) is undefined
-  replace any overlapped existing note                When one note is moved to overlap another, remove the one that wasn\'t being moved
-  shorten the overlapped existing note                When one note is moved to overlap another, shorten the one that wasn\'t moved so that there is no overlap
-  shorten the overlapping new note                    When one note is moved to overlap another, shorten the one that was moved so that there is no overlap
-  replace both overlapping notes with a single note   When one note is moved to overlap another, merge them both to form one (longer) note
-  --------------------------------------------------- ------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| never allow them | Edits that would create note overlaps are not allowed |
+| don\'t do anything in particular | Ardour leaves overlapping notes alone---the behaviour of a MIDI receiver (plugin or hardware) is undefined |
+| replace any overlapped existing note | When one note is moved to overlap another, remove the one that wasn\'t being moved |
+| shorten the overlapped existing note | When one note is moved to overlap another, shorten the one that wasn\'t moved so that there is no overlap |
+| shorten the overlapping new note | When one note is moved to overlap another, shorten the one that was moved so that there is no overlap |
+| replace both overlapping notes with a single note | When one note is moved to overlap another, merge them both to form one (longer) note |
 
 Changing the option in use will not retroactively make changes---it will
 only affect new note overlaps created while the option remains chosen.

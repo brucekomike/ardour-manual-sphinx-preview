@@ -24,32 +24,32 @@ To change the position smoothly, press the right button and drag
 anywhere within the panner. *Note: grabbing the position indicator is
 not needed in order to drag.*
 
-  ---------------------------- -------------------------------------------------------------------
-  Reset to defaults            Click [right]{.kbd .mod3 .mouse}
-  Change to a \"hard left\"    Double click [right]{.kbd .mouse} in the left side of the panner
-  Change to a \"hard right\"   Double click [right]{.kbd .mouse} in the right side of the panner
-  Set the position to center   Double Click [right]{.kbd .mouse} in the middle of the panner
-  ---------------------------- -------------------------------------------------------------------
+|  |  |
+|----|----|
+| Reset to defaults | Click [right]{.kbd .mod3 .mouse} |
+| Change to a \"hard left\" | Double click [right]{.kbd .mouse} in the left side of the panner |
+| Change to a \"hard right\" | Double click [right]{.kbd .mouse} in the right side of the panner |
+| Set the position to center | Double Click [right]{.kbd .mouse} in the middle of the panner |
 
 ## Keyboard bindings
 
 When the pointer is within a mono panner user interface, the following
 keybindings are available to operate on that panner:
 
-  ----------------------------- ------------------------------------
-  [←]{.kbd} / [←]{.kbd .mod1}   move position 1° / 5° to the left
-  [→]{.kbd} / [→]{.kbd .mod1}   move position 1° / 5° to the right
-  [0]{.kbd}                     reset position to center
-  ----------------------------- ------------------------------------
+|                             |                                    |
+|-----------------------------|------------------------------------|
+| [←]{.kbd} / [←]{.kbd .mod1} | move position 1° / 5° to the left  |
+| [→]{.kbd} / [→]{.kbd .mod1} | move position 1° / 5° to the right |
+| [0]{.kbd}                   | reset position to center           |
 
 ## Using the scroll wheel/touch scroll
 
 When the pointer is within a mono panner user interface, the scroll
 wheel may be used as follows:
 
-  -------------------------------------------------- ----------------------------------
-  [⇑]{.kbd .mouse} or [⇐]{.kbd .mouse}               move position to the left by 1°
-  [⇑]{.kbd .mod1 .mouse} or [⇐]{.kbd .mod1 .mouse}   move position to the left by 5°
-  [⇓]{.kbd .mouse} or [⇒]{.kbd .mouse}               move position to the right by 1°
-  [⇓]{.kbd .mod1 .mouse} or [⇒]{.kbd .mod1 .mouse}   move position to the right by 5°
-  -------------------------------------------------- ----------------------------------
+|  |  |
+|----|----|
+| [⇑]{.kbd .mouse} or [⇐]{.kbd .mouse} | move position to the left by 1° |
+| [⇑]{.kbd .mod1 .mouse} or [⇐]{.kbd .mod1 .mouse} | move position to the left by 5° |
+| [⇓]{.kbd .mouse} or [⇒]{.kbd .mouse} | move position to the right by 1° |
+| [⇓]{.kbd .mod1 .mouse} or [⇒]{.kbd .mod1 .mouse} | move position to the right by 5° |

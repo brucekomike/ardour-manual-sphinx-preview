@@ -22,13 +22,13 @@ indefinitely on repeat. Or it could be set up so that Ardour would only
 repeat that clip as long as the pad is kept pressed and stop playing it
 as soon as the pad is released.
 
-  ------------------------- ----------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [Trigger]{.kbd .menu}     ![](/images/launch-style-icons-trigger.png)     Clicking will trigger the playback of a clip. Further clicks, as well as mouse up and note-off events will be ignored.
-  [Retrigger]{.kbd .menu}   ![](/images/launch-style-icons-retrigger.png)   Clicking will trigger the playback of a clip. Another click will restart (retrigger) the playback from the beginning, quantization will be taken into consideration. Mouse up and note-off events will be ignored.
-  [Gate]{.kbd .menu}        ![](/images/launch-style-icons-gate.png)        The clip will be played back as long as the mouse button or the MIDI key/pad is kept pressed. Quantization defines how soon playback starts after pressing the button/key down and ends after releasing the button/key.
-  [Toggle]{.kbd .menu}      ![](/images/launch-style-icons-toggle.png)      The clip will keep playing until the button is clicked again or another note-on event is sent from a MIDI device
-  [Repeat]{.kbd .menu}      ![](/images/launch-style-icons-repeat.png)      The contents of the clip will be played to the extent of the quantization setting.
-  ------------------------- ----------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |  |
+|----|----|----|
+| [Trigger]{.kbd .menu} | ![](/images/launch-style-icons-trigger.png) | Clicking will trigger the playback of a clip. Further clicks, as well as mouse up and note-off events will be ignored. |
+| [Retrigger]{.kbd .menu} | ![](/images/launch-style-icons-retrigger.png) | Clicking will trigger the playback of a clip. Another click will restart (retrigger) the playback from the beginning, quantization will be taken into consideration. Mouse up and note-off events will be ignored. |
+| [Gate]{.kbd .menu} | ![](/images/launch-style-icons-gate.png) | The clip will be played back as long as the mouse button or the MIDI key/pad is kept pressed. Quantization defines how soon playback starts after pressing the button/key down and ends after releasing the button/key. |
+| [Toggle]{.kbd .menu} | ![](/images/launch-style-icons-toggle.png) | The clip will keep playing until the button is clicked again or another note-on event is sent from a MIDI device |
+| [Repeat]{.kbd .menu} | ![](/images/launch-style-icons-repeat.png) | The contents of the clip will be played to the extent of the quantization setting. |
 
 ## Launch Quantize
 

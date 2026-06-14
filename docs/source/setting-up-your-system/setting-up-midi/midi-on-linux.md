@@ -8,10 +8,10 @@ However, should jackd need to be used, the rest of this page is valid.
 The right approach for using MIDI on Linux depends on which version of
 JACK is in use. The world divides into:
 
-  ----------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Systems using JACK 1, versions 0.124 or later   On these systems, JACK must be started with the `-X alsa_midi` server argument. To support legacy control applications, the `-X seq` argument to the ALSA backend of JACK can also be used to get the exact same results.
-  All others                                      Using a2jmidid acts as a bridge between ALSA MIDI and JACK. The `-X seq` or `-X raw` arguments should *not* be used---the timing and performance of these options is unacceptable.
-  ----------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Systems using JACK 1, versions 0.124 or later | On these systems, JACK must be started with the `-X alsa_midi` server argument. To support legacy control applications, the `-X seq` argument to the ALSA backend of JACK can also be used to get the exact same results. |
+| All others | Using a2jmidid acts as a bridge between ALSA MIDI and JACK. The `-X seq` or `-X raw` arguments should *not* be used---the timing and performance of these options is unacceptable. |
 
 ## Using a2jmidid {#a2jmidid}
 

@@ -30,22 +30,22 @@ The transport clocks have special attributes due to their function:
 Under each clock is an information panel, that offers information about
 the current [clock mode](@@editing-clocks#clock-modes):
 
-  Mode                                  Information
-  ------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------
-  Timecode / Minutes:Second / Seconds   Source of Timecode (`INT`{.sample} means that Ardour is its own timecode source)
-  Bars:Beats                            Current tempo and current time signature. Clicking one of this button allows changing the value.
-  Samples                               Sample rate (`SR`{.sample}) and pull-up/down, as defined in the [session properties](@@session-properties#properties-timecode).
+| Mode | Information |
+|----|----|
+| Timecode / Minutes:Second / Seconds | Source of Timecode (`INT`{.sample} means that Ardour is its own timecode source) |
+| Bars:Beats | Current tempo and current time signature. Clicking one of this button allows changing the value. |
+| Samples | Sample rate (`SR`{.sample}) and pull-up/down, as defined in the [session properties](@@session-properties#properties-timecode). |
 
 ## Time origin
 
 In the [Right]{.kbd .mouse}-click menu, it is possible to change the
 time origin, i.e. the zero-point in time, amongst :
 
-  ---------------------------------------- --------------------------------------------------------------------------------------------------------------------------
-  [Display absolute time]{.dfn}            The zero point is the absolute start of the timeline (ignoring the session start and any timecode offsets).
-  [Display delta to edit cursor]{.dfn}     The zero point is the Edit Point as chosen from the [Edit Point selector](@@edit-point-control), e.g. a selected marker.
-  [Display delta to origin marker]{.dfn}   The zero point is the *start* marker of the session.
-  ---------------------------------------- --------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| [Display absolute time]{.dfn} | The zero point is the absolute start of the timeline (ignoring the session start and any timecode offsets). |
+| [Display delta to edit cursor]{.dfn} | The zero point is the Edit Point as chosen from the [Edit Point selector](@@edit-point-control), e.g. a selected marker. |
+| [Display delta to origin marker]{.dfn} | The zero point is the *start* marker of the session. |
 
 The transport clock may display a positive or negative value depending
 on the temporal order of the chosen zero value and the playhead.

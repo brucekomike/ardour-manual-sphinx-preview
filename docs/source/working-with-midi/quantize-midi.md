@@ -13,13 +13,13 @@ clicking a MIDI region, [*Name_Of_The_Region* \> MIDI \>
 Quantize\...]{.kbd .menu} or with the default [5]{.kbd .mod2} shortcut
 and includes:
 
-  ------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Snap note start     If checked, the start of the notes will be aligned to the grid as defined in the following combo-box (see below)
-  Snap note end       If checked, the end of the notes will be aligned to the grid as defined in the following combo-box (see below)
-  Threshold (ticks)   Defines how close from a grid point a note must be in order to be quantized. Notes farther than this number of [ticks](@@timecode-generators-and-slaves) will not be affected.
-  Strength            Defines how close to its new position the note must be moved, as a percentage of the nominal distance (allowing for a non-perfect quantization, i.e. just making the performance rhythmically better without giving it a machine-generated feel)
-  Swing               Applies a *swing* to the midi notes, i.e. delays every 2nd note by this amount, to e.g. simulate a groovy drummer
-  ------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Snap note start | If checked, the start of the notes will be aligned to the grid as defined in the following combo-box (see below) |
+| Snap note end | If checked, the end of the notes will be aligned to the grid as defined in the following combo-box (see below) |
+| Threshold (ticks) | Defines how close from a grid point a note must be in order to be quantized. Notes farther than this number of [ticks](@@timecode-generators-and-slaves) will not be affected. |
+| Strength | Defines how close to its new position the note must be moved, as a percentage of the nominal distance (allowing for a non-perfect quantization, i.e. just making the performance rhythmically better without giving it a machine-generated feel) |
+| Swing | Applies a *swing* to the midi notes, i.e. delays every 2nd note by this amount, to e.g. simulate a groovy drummer |
 
 The grid selection combo boxes allow a choice between the current *main
 grid*, or many beat subdivisions.

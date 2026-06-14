@@ -8,13 +8,13 @@ selecting the desired mode from the menu. Some clocks are entirely
 independent of any other clock\'s mode; others are linked so that
 changing one changes all clocks in that group. The different modes are:
 
-  ----------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Timecode          Time is shown as [[SMPTE]{.abbr title="Society of Motion Picture and Television Engineers"} timecode]{.dfn} in Hours:Minutes:Seconds:Frames, measured from the timecode zero point on the timeline (which may not correspond to the session start and/or absolute zero on the timeline, depending on configurable timecode offsets). The frames value is dictated by either the Timecode frames-per-second [session property](@@session-properties#properties-timecode), or, if slaved to an external timecode master, the master\'s setting. Under the transport clocks is an indication of the current timecode source (`INT`{.sample} means that Ardour is its own timecode source).
-  Bars:Beats        Time is shown as Bars:Beats:Ticks, indicating [musical time]{.dfn}.
-  Minutes:Seconds   Time is shown as Hours:Minutes:Seconds.Milliseconds.
-  Seconds           Time is shown as Seconds.Deciseconds.
-  Samples           Time is shown as a [sample count]{.dfn}. The number of samples per second is given by the current sample rate.
-  ----------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| Timecode | Time is shown as [[SMPTE]{.abbr title="Society of Motion Picture and Television Engineers"} timecode]{.dfn} in Hours:Minutes:Seconds:Frames, measured from the timecode zero point on the timeline (which may not correspond to the session start and/or absolute zero on the timeline, depending on configurable timecode offsets). The frames value is dictated by either the Timecode frames-per-second [session property](@@session-properties#properties-timecode), or, if slaved to an external timecode master, the master\'s setting. Under the transport clocks is an indication of the current timecode source (`INT`{.sample} means that Ardour is its own timecode source). |
+| Bars:Beats | Time is shown as Bars:Beats:Ticks, indicating [musical time]{.dfn}. |
+| Minutes:Seconds | Time is shown as Hours:Minutes:Seconds.Milliseconds. |
+| Seconds | Time is shown as Seconds.Deciseconds. |
+| Samples | Time is shown as a [sample count]{.dfn}. The number of samples per second is given by the current sample rate. |
 
 ## Changing clock values with the keyboard
 

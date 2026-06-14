@@ -2,6 +2,7 @@
 The [Track]{.kbd .menu} menu is where one can deal with the tracks,
 busses and control masters.
 
+```{eval-rst}
 +----------------------------------+-------------------------------------------+
 | Add Track, Bus or VCA...         | Shows the [[Add Track, Bus or             |
 |                                  | VCA...]{.kbd .menu}                       |
@@ -106,3 +107,4 @@ busses and control masters.
 |                                  | regions from the playlist stay in the     |
 |                                  | Editor for later use)                     |
 +----------------------------------+-------------------------------------------+
+```

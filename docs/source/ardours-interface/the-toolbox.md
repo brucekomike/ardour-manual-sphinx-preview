@@ -8,11 +8,11 @@ width="50%"}
 Ardour has a global [Edit Mode]{.dfn} selector at the left side of the
 Editing toolbar, which affects how regions are moved or copied:
 
-  ---------------------- -----------------------------------------------------------------------
-  [Slide]{.kbd .menu}    Regions move freely. Ardour creates overlaps when necessary.
-  [Ripple]{.kbd .menu}   Editing affects the regions to the \"right\" of the edit (see below).
-  [Lock]{.kbd .menu}     No region motion is permitted (except for \"nudge\").
-  ---------------------- -----------------------------------------------------------------------
+|  |  |
+|----|----|
+| [Slide]{.kbd .menu} | Regions move freely. Ardour creates overlaps when necessary. |
+| [Ripple]{.kbd .menu} | Editing affects the regions to the \"right\" of the edit (see below). |
+| [Lock]{.kbd .menu} | No region motion is permitted (except for \"nudge\"). |
 
 The general idea behind the Ripple edit mode is this:
 
@@ -72,17 +72,17 @@ complex and, by virtue of this, requires different [Mouse Modes]{.dfn}
 in order to be able to perform typical editing chores in a way that is
 powerful and makes sense.
 
-  --------------- -----------------------
-  **Mode**        **Keyboard Shortcut**
-  Grab            [G]{.kbd}
-  Range           [R]{.kbd}
-  Cut             [C]{.kbd}
-  Audition        None
-  Stretch         [T]{.kbd}
-  Grid            [Y]{.kbd}
-  Draw            [D]{.kbd}
-  Internal Edit   [E]{.kbd}
-  --------------- -----------------------
+|               |                       |
+|---------------|-----------------------|
+| **Mode**      | **Keyboard Shortcut** |
+| Grab          | [G]{.kbd}             |
+| Range         | [R]{.kbd}             |
+| Cut           | [C]{.kbd}             |
+| Audition      | None                  |
+| Stretch       | [T]{.kbd}             |
+| Grid          | [Y]{.kbd}             |
+| Draw          | [D]{.kbd}             |
+| Internal Edit | [E]{.kbd}             |
 
 Changes to the mouse pointer only occur when hovering over the track
 canvas; the mouse pointer *always* changes to a hand in the ruler area

@@ -41,10 +41,12 @@ for example, may lead to wasted time discovering why a send has no
 sound. A good easy to use controller that fits on most phones while
 still being controllable even with big fingers might look like:
 
+```{eval-rst}
 +--------------------------------------------------------------------+-----------------------------------------------------------------+
 | ![Personal Monitor controller using                                | ![Personal Monitor controller using                             |
 | TouchOSC](/images/osc-cue-touchosc.jpg){alt="TouchOSC Screenshot"} | Control](/images/osc-cue-control.jpg){alt="Control Screenshot"} |
 +--------------------------------------------------------------------+-----------------------------------------------------------------+
+```
 
 Ardour is not limited to talking to one personal monitor controller at a
 time, but is able to deal with many simultaneously, each controlling its
@@ -115,16 +117,16 @@ where *state* is a float of 0.0 for disable and 1.0 for enable.
 
 #### Feedback
 
-  ---------------------------------------------- -------------------------------------------------------------------------------------------------------------------
-  [/cue/name *name*]{.kbd .osc}                  where *name* is a string that is the name of the currently selected foldback bus.
-  [/cue/name/*id* *name*]{.kbd .osc}             where *name* is a string that is the name of the foldback bus that *id* belongs to.
-  [/cue/fader *position*]{.kbd .osc}             where *position* is a float from 0.0 to 1.0 that shows the fader position for the selected foldback bus.
-  [/cue/mute *state*]{.kbd .osc}                 where *state* is a float of 0.0 or 1.0 that shows the state of the mute for the selected foldback bus.
-  [/cue/signal *activity*]{.kbd .osc}            where *activity* is a float of 0.0 or 1.0 that shows audio activity for the selected foldback bus.
-  [/cue/send/name/*id* *name*]{.kbd .osc}        where *name* is a string that is the name of the channel that send *id* belongs to.
-  [/cue/send/fader/*id* *position*]{.kbd .osc}   where *position* is a float from 0.0 to 1.0 that is the position for the fader for the send that *id* belongs to.
-  [/cue/send/enable/*id* *state*]{.kbd .osc}     where *state* is a float of 0.0 or 1.0 that is the state of the enable for the send that *id* belongs to.
-  ---------------------------------------------- -------------------------------------------------------------------------------------------------------------------
+|  |  |
+|----|----|
+| [/cue/name *name*]{.kbd .osc} | where *name* is a string that is the name of the currently selected foldback bus. |
+| [/cue/name/*id* *name*]{.kbd .osc} | where *name* is a string that is the name of the foldback bus that *id* belongs to. |
+| [/cue/fader *position*]{.kbd .osc} | where *position* is a float from 0.0 to 1.0 that shows the fader position for the selected foldback bus. |
+| [/cue/mute *state*]{.kbd .osc} | where *state* is a float of 0.0 or 1.0 that shows the state of the mute for the selected foldback bus. |
+| [/cue/signal *activity*]{.kbd .osc} | where *activity* is a float of 0.0 or 1.0 that shows audio activity for the selected foldback bus. |
+| [/cue/send/name/*id* *name*]{.kbd .osc} | where *name* is a string that is the name of the channel that send *id* belongs to. |
+| [/cue/send/fader/*id* *position*]{.kbd .osc} | where *position* is a float from 0.0 to 1.0 that is the position for the fader for the send that *id* belongs to. |
+| [/cue/send/enable/*id* *state*]{.kbd .osc} | where *state* is a float of 0.0 or 1.0 that is the state of the enable for the send that *id* belongs to. |
 
 While a fader is being adjusted, the corresponding */\*/name* text will
 give the level in db.

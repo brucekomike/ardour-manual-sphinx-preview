@@ -38,6 +38,7 @@ jobs:
           make epub
     
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-artifact@v7
         with:
           path: docs/build/epub/ardourmanual.epub  # Path to the built documentation
+          archive: false

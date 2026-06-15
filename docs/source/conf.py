@@ -9,7 +9,7 @@
 ## change required >>>
 project = 'ardour manual'
 copyright = '2026, ardour.org'
-author = 'brucekomike'
+author = 'ardour.org'
 release = 'v0.2.0'
 language='en'
 ## change required <<<
